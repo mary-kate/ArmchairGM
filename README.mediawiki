@@ -1,0 +1,23 @@
+== What is this? ==
+This is a copy of the original ArmchairGM codebase (wikia-ny branch from Wikia's SVN), as it was as of r40097, 1 August 2011.
+
+This is here because as of 28 August 2013, Wikia's SVN seems to be down (for good?) given that Wikia has moved all development efforts to GitHub.
+
+This source code is provided as-is FOR REFERENCING PURPOSES AND DUE TO HISTORICAL INTEREST ONLY.
+You are strongly advised against putting this codebase anywhere near a production environment, because this is an outdated and buggy release of MediaWiki with some custom hacks.
+
+Most of the extensions available here are nowadays available as social tools (see https://www.mediawiki.org/wiki/Social_tools) on git.wikimedia.org.
+
+== Who? ==
+These files were added to GitHub by Jack Phoenix <jack@countervandalism.net>
+
+If you have any questions about them, please leave a message on my user talk page on MediaWiki.org:
+https://www.mediawiki.org/wiki/User_talk:Jack_Phoenix
+
+== I want to submit a patch! ==
+That's great! Please note that as explained above, this codebase is unsupported and no patches will be accepted '''against this codebase'''.
+
+Most of the features available here have been released as separate extensions, which '''are''' supported.
+See https://www.mediawiki.org/wiki/Social_tools for more info.
+
+You are encouraged to participate on MediaWiki.org & git.wikimedia.org.
