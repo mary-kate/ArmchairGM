@@ -1,0 +1,75 @@
+# Message textdata
+CREATE TABLE IF NOT EXISTS `messages_text`
+(
+  `mssg_id`         int (7) unsigned    NOT NULL    auto_increment,
+  `mssg_lang`       varchar (10)        NOT NULL    default 'en',
+  `mssg_user`       varchar (255)       NOT NULL,
+  `mssg_name`       varchar (255)       NOT NULL,
+  `mssg_text`       mediumtext          NOT NULL,
+  `mssg_date`       timestamp           NOT NULL    default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `mssg_revision`   int (9) unsigned    NOT NULL    default 0,
+    PRIMARY KEY (`mssg_id`, `mssg_lang`, `mssg_revision`),
+    KEY `mssg_id` (`mssg_id`)
+);
+
+# Messages metadata
+CREATE TABLE IF NOT EXISTS `messages_meta`
+(
+  `wiki_name`		varchar (255)		NOT NULL,
+  `user_name`		varchar (255)		NOT NULL,
+  `mssg_id`			int (7) unsigned	NOT NULL,
+  `mssg_sender`		int (7) unsigned	NOT NULL,
+  `mssg_status`		tinyint (3)			NOT NULL,
+  `mssg_date`		timestamp			NOT NULL	default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+	PRIMARY KEY (`wiki_name`, `user_name`, `mssg_id`),
+	KEY `mssg_id` (`mssg_id`), KEY `mssg_date` (`mssg_date`)
+);
+
+# Default messages (see: SiteWideMessages.PHP)
+INSERT INTO `messages_text` VALUES
+(
+	'1',
+	'en',
+	'DEFAULT',
+	'Event:JimmyInspire',
+	'INSERT MESSAGE HERE...',
+	 CURRENT_TIMESTAMP,
+	'1'
+);
+INSERT INTO `messages_text` VALUES
+(
+	'2',
+	'en',
+	'DEFAULT',
+	'Event:FirstEdit',
+	'
+==Thank you==
+
+Welcome and thank you for contributing to Wikia!
+
+We are an open experiment in free culture, in community collaboration. We believe Wikia is the next step in the evolution of non-proprietary culture. Our goal is to build the best source of content for topics you care about and to let you meet people who share your passions and interests. By writing, translating, or helping edit on wikia, you can share your knowledge and opinions and inform the world.
+
+Your work belongs to you, and the free license guarantees you that we will always listen to your concerns and manage the site in ways that benefit you.  If we screw up, the communities leave, which means we have to treat you right.
+
+There are a few founding principles here, and if you are familiar with Wikipedia, you will already know a lot of these.
+:*We encourage a culture of open and respectful dialog
+:*Respect each other: Wikians understand that there is a difficult and delicate balance to be achieved between having communities with healthy internal dialog and dissent, while at the same time keeping the discussion kind and loving, so that trolls and vandals do not dominate the culture
+:*Respect the mission statement of each Wikia: Each Wiki community can and should have a mission statement which is modified over time by the community and that mission statement should be respected.  Wikipedia works with a core mission statement that includes Neutrality as a central principle.  Wikias can and do operate on different principles.  If a Wikia is set up for advocacy of some particular point of view, respect from people who disagree with that point of view is primarily about launching a separate community, rather than disrupting the one which exists.
+:*Don''t bite the newbies: Communities grow by being open, and stay healthy by being open. It is important to greet newcomers with kindness and friendliness, assuming good faith.
+
+[[w:User:Jimbo_Wales|Jimmy Wales]]
+
+	',
+	 CURRENT_TIMESTAMP,
+	'1'
+);
+INSERT INTO `messages_text` VALUES
+(
+	'3',
+	'en',
+	'DEFAULT',
+	'Special:MessageFromTeam',
+	'INSERT MESSAGE HERE...',
+	 CURRENT_TIMESTAMP,
+	'1'
+);

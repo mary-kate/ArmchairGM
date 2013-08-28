@@ -1,0 +1,7 @@
+WidgetTitle=Marathon&WidgetSite=<font color='#002BB8'><u><a href='#'>Halopedia</a></u></font>&WidgetText=<font size='16'><b>Background</b></font> <font color='#002BB8'><u><a href='#'>[edit]</a></u></font>
+The first game, Marathon (1994), was followed by two sequels: Marathon 2: Durandal (1995) and Marathon Infinity (1996). Marathon 2 was also released for Windows 95. You can also download all three games via H.B.O.'s download page. Please be aware that the link doesn't provide the serial numbers needed for the game to run on.
+
+<font size='16'><b>Games in the Series</b></font> <font color='#002BB8'><u><a href='#'>[edit]</a></u></font>
+<img src='http://images2.wikia.nocookie.net/halo/images/7/7c/Lordhoodhalo.JPG' width='75' height='53' hspace='3' vspace='3'/>Marathon was released for the Apple Macintosh and was one of the earliest first-person shooters to appear on the Macintosh. Unlike some other similar games of that era (for example, id Software's DOOM) Marathon and its sequels, Marathon 2: Durandal and Marathon Infinity were notable for their intricate plots.
+
+Set in the year 2794 A.D., the game placed the player as a cyborg Security Officer aboard the human starship UESC (Unified Earth Space Council) Marathon, orbiting the colony on the planet Tau Ceti IV. Throughout the game, the player attempts to defend the ship and its inhabitants from a race of alien slavers called the Pfhor. As he fights against the invaders, he witnesses the three shipboard AIs' interactions, and discovers that all is not as it seems aboard the Marathon

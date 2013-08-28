@@ -1,0 +1,51 @@
+<html>
+	<head>	
+	<script src="http://maps.google.com/maps?file=api&amp;v=2.x&amp;key=ABQIAAAA_6icK9WzMbH5eGCPpoZKHhToWDy-c01ebj4dpClJ0MiFW-06yxTqXdb6jVMULIW1MMEewVHcQ2g3Uw" type="text/javascript"></script>     
+	
+	</head>
+	
+	<body onLoad="load()">
+	
+	<script language="JavaScript">
+	    
+	    var map;
+	    var geoXml;
+	    
+	    
+		// two different loads - one when its a clean map and one to load existing stuff
+		// load the map into the "map" div
+		// place the markers from the arguments
+	     function load() {
+		if (GBrowserIsCompatible()) {
+		    
+		    var geocoder = new GClientGeocoder();
+		
+		    map = new GMap2( document.getElementById("map") ); 
+		    map.setCenter(new GLatLng(40.752816,-73.984036), 5);
+			
+		    map.addControl(new GLargeMapControl());
+		    map.addControl(new GMapTypeControl());
+		    map.addControl(new GOverviewMapControl());
+		
+		    address = "Karachi, Pakistan";
+		    
+		    geocoder.getLatLng(address,	function(point) {
+				    		if (!point) {
+							alert(address + " not found");
+						} else {
+							map.setCenter(point, 13);
+							var marker = new GMarker(point);
+							map.addOverlay(marker);
+							marker.openInfoWindowHtml(address);
+						}
+		    			});
+
+		}
+		
+	     }
+     	     
+	 </script>
+     
+		<div id="map" style="width:800px; height:600px"></div>
+	</body>
+</html>

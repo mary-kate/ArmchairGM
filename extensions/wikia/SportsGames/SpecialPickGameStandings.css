@@ -1,0 +1,180 @@
+.standings-container {
+	margin:0px 0px 0px 0px;
+}
+
+.pickgame-standings {
+	width:600px;
+	margin:0px 10px 10px 0px;
+	float: left;
+}
+
+.pickgame-standings-heading {
+	font-size:13px;
+	padding:0px 0px 10px 10px;
+}
+
+.pickgame-standings-user {
+	font-size: 13px;
+	padding:15px 10px;
+}
+
+.pickgame-standings-user-alternate {
+	font-size: 13px;
+	background-color: #F2F4F7;
+	padding:15px 10px;
+}
+
+.pickgame-standings-rank {
+	font-weight: bold;
+	float: left;
+	width: 30px;
+	text-align: left;
+	padding:5px 0px 0px 0px;
+}
+
+.pickgame-standings-username {
+	font-weight: bold;
+	color: black;
+	float: left;
+	width: 250px;
+	text-align: left;
+}
+
+.pickgame-standings-username img {
+	vertical-align: middle;
+	border:1px solid #dcdcdc;
+	margin:0px 10px 0px 0px;
+}
+
+.pickgame-standings-username a {
+	text-decoration:none;
+}
+
+.pickgame-standings-correct {
+	font-weight: bold;
+	color: green;
+	float: left;
+	width: 50px;
+	text-align: center;
+	padding:5px 0px 0px 0px;
+}
+
+.pickgame-standings-incorrect {
+	font-weight: bold;
+	color: red;
+	float: left;
+	width: 50px;
+	text-align: center;
+	padding:5px 0px 0px 0px;
+}
+
+.pickgame-standings-points {
+	font-weight: bold;
+	float: left;
+	width: 50px;
+	text-align: center;
+	padding:5px 0px 0px 0px;
+}
+
+.pickgame-standings-winpct {
+	font-weight: bold;
+	float: left;
+	width: 50px;
+	text-align: center;
+	padding:5px 0px 0px 0px;
+}
+
+.no-standings-text {
+	color:#ff0000;
+	font-size:14px;
+	font-weight:bold;
+	margin:0px 0px 10px 0px;
+}
+
+/**Menu**/
+.standings-menu {
+	float:right;
+	width:180px;
+}
+
+.standings-menu h2 {
+	font-size:16px;
+	color:#333333;
+	font-weight:bold;
+	border-bottom:1px solid #dcdcdc;
+	padding:0px 0px 3px 0px;
+	margin:0px 0px 10px 0px;
+}
+
+.standings-menu p {
+	margin:0px 0px 3px 0px !important;
+}
+
+.standings-menu a {
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.pickgame-standings-top-links a {
+	color:#797979;
+}
+
+.pick-date-navigation {
+	width:600px;
+}
+
+.pick-navigation-day-title {
+	margin:0px 0px 10px 0px;
+	color:#333333;
+	font-weight:bold;
+	font-size:14px;
+	
+}
+
+.pick-navigation-day-link {
+	width:50px;
+	height:50px;
+	border:1px solid #D7DEE8;
+	margin:0px 5px 0px 0px;
+	padding:0px;
+	float:left;
+	text-align: center;
+	cursor:pointer;
+	
+}
+
+.pick-navigation-day-link a {
+	text-decoration: none;
+	
+}
+
+.pick-navigation-day-current {
+	width:50px;
+	height:50px;
+	border:1px solid #D7DEE8;
+	margin:0px 5px 0px 0px;
+	padding:0px;
+	background-color: #F2F4F7;
+	float:left;
+	text-align: center;
+	cursor:default;
+}
+
+.pick-navigation-day-name {
+	padding: 4px 0px;
+	font-weight:bold;
+}
+
+.pick-navigation-day-link {
+	color:#376EA6;
+}
+
+.pick-navigation-day-arrows {
+	float:left;
+	width:25px;
+	height:50px;
+	border:1px solid #dcdcdc;
+	margin:0px 5px 0px 0px;
+	text-align:center;
+	cursor:pointer;
+}

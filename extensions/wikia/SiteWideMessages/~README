@@ -1,0 +1,23 @@
+To install:
+
+Add this line to GlobalSettings:
+ Require_Once ($IP . '/extensions/SiteWideMessages/SiteWideMessages.php');
+
+Also add new SQL table definitions and default messages to your *GLOBAL* database:
+ mysql wikicities < /extensions/SiteWideMessages/~SQL
+
+Keep in mind that there is an event called FirstMessageEdit which will send a message to each user after his first edit on Wikia _AFTER_ setting database table definitions.
+To fix this problem you'll need to pretend all user has already received that message, therefor use this SQL on *GLOBAL* database:
+
+INSERT IGNORE INTO `user_mssgstatus` SELECT `user_id`, `user_name`, '2', '3', UNIX_TIMESTAMP() FROM `user`;
+
+[20.12.06] Also set hotfix for table `user_mssgstatus`: 
+  ALTER TABLE `user_mssgstatus` ADD PRIMARY KEY (`user_id`, `user_ip`, `user_mssg_id`);
+[21.12.06] Also set hotfix for tables `user_newtalk` on *LOCAL* db and `shared_newtalks` on *GLOBAL* db:
+	ALTER TABLE `user_newtalk` CHANGE `user_ip` `user_ip` VARCHAR (255) ''; # OPTIONAL
+	ALTER TABLE `shared_newtalks` ADD `sn_user_ip` VARCHAR (255) '' AFTER `sn_user_id`, ADD INDEX `sn_user_ip` (`sn_user_ip`);
+
+If you want to disable this feature add to your LocalSettings:
+  $wgDisableSiteWideMessages = True;
+
+For further reference contact: CorfiX (corfix@wikia.com)

@@ -1,0 +1,77 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../../css/wikiwyg.css" />
+<script type="text/javascript" src="../../lib/Wikiwyg.js"></script>
+<script type="text/javascript" src="../../lib/Wikiwyg/Toolbar.js"></script>
+<script type="text/javascript" src="../../lib/Wikiwyg/Wysiwyg.js"></script>
+<script type="text/javascript" src="../../lib/Wikiwyg/Wikitext.js"></script>
+<script type="text/javascript" src="../../lib/Wikiwyg/Preview.js"></script>
+<script type="text/javascript" src="Standalone.js"></script>
+<script>
+// Find all the divs in the page (after it has loaded) and Wikiwygify them.
+var wikiwyg_divs = [];
+ var wikiwyg = new Wikiwyg.Standalone();
+onload = function() {
+    var elements = document.getElementsByTagName('div');
+    var divs = [];
+    for (var i = 0; i < elements.length; i++)
+        divs.push(elements[i]);
+    var iframe_num = 1;
+    for (var i in divs) {
+       
+        var config = {
+            doubleClickToEdit: true,
+			        modeClasses: [
+            'Wikiwyg.Wysiwyg',
+            'Wikiwyg.Wikitext'
+
+        ],
+            javascriptLocation: '../../lib/',
+            toolbar: {
+                imagesLocation: '../../images/'
+            },
+            wysiwyg: {	
+                iframeId: 'iframe1'
+            }
+        };
+
+        wikiwyg.createWikiwygArea(divs[i], config);
+        wikiwyg_divs.push(wikiwyg);
+		setTimeout("wikiwyg.editMode();",200);
+    }
+}
+
+</script>
+</head>
+<body>
+<h3>Wikiwyg Demo Page</h3>
+<p>
+Doubleclick on any of the 3 sections below to edit them.  You may edit more
+than one section at a time. Changes are saved into the browser and are lost
+when you reload the page.
+
+</p>
+<hr />
+<blockquote>
+<div>
+<p>
+Wikiwyg is a Javascript library that can be easily
+integrated into any wiki or blog software. It offers the user multiple
+ways to edit/view a piece of content:
+</p>
+<ul>
+<li>Wysiwyg mode - Simple, HTML, Design Mode editing.
+<li>Wikitext mode - Standard, Wiki, Text Area editing.
+<ul>
+<li>Possible to support more than one wiki syntax flavor.
+</ul>
+<li>Preview mode - Display mode without saving changes.
+</ul>
+</div>
+<iframe id="iframe1" height="0" width="0" frameborder="0"></iframe>
+
+
+
+</blockquote>
+</body>
+</html>

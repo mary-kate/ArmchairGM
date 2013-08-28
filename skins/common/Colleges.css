@@ -1,0 +1,498 @@
+@import url("common.css");
+
+/**general**/
+
+body {
+text-align: center;
+font: 100%/120% Arial, Helvetica, sans-serif;
+background-color:#fff;
+}
+
+.cleared {
+clear:both;
+}
+
+#container {
+margin-left: auto;
+margin-right: auto;
+margin-top:0;
+width: 1000px;
+text-align: left;
+}
+
+a {color:#6D84B4;}
+
+a.external, a.stub {
+color:#6D84B4 !important;
+text-decoration:underline;
+font-weight:bold;
+}
+
+a.new {
+color:red !important;
+text-decoration:underline;
+font-weight:bold;
+}
+
+.title {
+font-size:12pt;
+font-weight:bold;
+color:#4A6D88;
+}
+
+.pagetitle {
+display:inline;	
+}
+
+/**tabs**/
+#tabs {
+border-bottom:1px solid #dcdcdc;
+}
+
+#tabs ul, #top ul {
+margin:0;
+padding:0;
+list-style:none;
+text-align:center;
+}
+
+#tabs li.off {
+float:left;
+margin-right:5px;
+background-image:url('../../images/colleges/tab.png');
+padding:3px 20px 3px 20px;
+border-left:1px solid #dcdcdc;
+border-right:1px solid #dcdcdc;
+border-top:1px solid #dcdcdc;
+font-size:.8em;
+}
+
+#tabs li.hover {
+float:left;
+margin-right:5px;
+background-image:url('../../images/colleges/tabHover.png');
+padding:5px 20px 5px 20px;
+border:1px solid #dcdcdc;
+font-size:.8em;
+}
+
+#tabs li.on {
+float:left;
+background-color:white;
+border-top:1px solid #dcdcdc;
+border-left:1px solid #dcdcdc;
+border-right:1px solid #dcdcdc;
+margin-right:5px;
+padding:5px 20px 5px 20px;
+font-size:.8em;
+}
+
+#tabsleft {
+float:left;
+}
+
+#tabs a {
+color:#000;
+text-decoration:none;
+}
+
+#tabsright {
+float:right;
+text-align:right;
+margin-top:3px;
+font-size:.8em;
+}
+
+#tabsright img {
+border:1px solid #cccccc;
+vertical-align:middle;
+}
+
+#tabs .newmessage {
+display:inline;
+font-size:.95em;
+font-weight:bold;
+}
+
+#tabs .newmessage a {
+color:red;	
+}
+
+/**top**/
+#logo {
+float:left;
+margin:18px 0px 0px 0px;
+}
+
+#searchbox {
+float:right;
+margin:30px 0px 0px 0px;
+}
+
+#searchbox input {
+vertical-align:bottom;
+}
+
+#navleft {
+float:left;
+background-image:url('../../images/colleges/navleft.png');
+background-repeat:x-repeat;
+width:810px;
+height:55px;
+}
+
+#navright {
+float:left;
+background-image:url('../../images/colleges/navright.png');
+background-repeat:no-repeat;
+width:190px;
+height:55px;
+text-align:center;
+padding:18px 0px 0px 0px;
+font-size:1.4em;
+}
+
+#navright a {
+color:#fff;
+font-weight:bold;
+text-decoration:none;
+}
+
+#navleft li {
+float:left;
+margin:19px 20px 0px 10px;
+font-size:1.1em;
+color:white;
+}
+
+#navleft a {
+color:#fff;
+text-decoration:none;
+}
+
+/** top ad **/
+
+#topad {
+text-align:center;
+border-bottom:1px solid #dcdcdc;
+padding:0px 0px 10px 0px
+
+}
+
+/** body **/
+
+#body {
+margin-top:5px;
+padding-top:10px;
+}
+
+#bodyleft {
+float:left;
+width:130px;
+}
+
+#bodyright {
+float:left;
+width:860px;
+margin:0px 0px 0px 10px;
+font-size:.9em;
+line-height:1.3em;;
+}
+
+#lefttitle {
+background-color:#dcdcdc;
+font-size:.6em;
+padding:3px 0px 3px 0px;
+width:122px;
+text-align:center;
+}
+
+#spotlight {
+border:1px solid #dcdcdc;
+padding:3px;
+margin-bottom:10px;
+}
+
+#leftad {
+border:1px solid #dcdcdc;
+padding:3px;
+margin-bottom:10px;
+text-align:center;
+}
+
+#pagemenu {
+font-size:.8em;
+}
+
+#pagemenu img {
+vertical-align:middle;
+}
+
+#pagemenu a {
+text-decoration:none;
+color:#4A6D88;
+}
+
+#title {
+margin:15px 0px 15px 0px;
+font-weight:bold;
+}
+
+#avatar {
+margin:15px 0px 15px 0px;
+}
+
+/** Footer **/
+#footer {
+border-top: 1px solid #dcdcdc;
+padding:18px 0px 0px 0px;
+height:50px;
+}
+
+#footerimage {
+float:left;
+}
+
+#footerlinks {
+float:left;
+padding:0px 225px 0px 225px;
+}
+
+#footerlinks a {
+font-size:.7em;
+}
+
+/** Site Scout **/
+
+.items {
+clear:both;
+}
+
+.site-scout {
+clear: both;
+border-top: 1px solid #ccc;
+min-height: 3.3em; /*for the hover*/
+}
+
+
+.site-scout a, .site-scout span {
+padding-top:5px;
+padding-bottom:3px;
+}
+
+a.item-title {
+font-weight:800;
+}
+
+.item-header span {
+font-weight: bold;
+color:#000;
+font-size: 85%;
+padding-bottom:3px;
+}
+
+.item-info, .item-title, .item-user, .item-comment, .item-time, .item-user-link, .item-user-talk{
+float: left;
+display: block;
+text-decoration: none;
+}
+
+.item-info  {
+width: 45px;
+font-size: 85%;
+text-align:center;
+}
+
+
+.site-scout .item-title {
+width: 275px;
+}
+
+.item-user {
+float:right;
+width: 175px;
+font-size: 75%;
+}
+
+.item-user img {
+vertical-align: middle;
+border: 1px solid #ccc;
+}
+
+.item-user-talk {
+height:18px;
+}
+
+.item-user-talk img {
+vertical-align: middle;
+border: 0px;
+}
+
+.item-comment {
+float:right;
+width: 150px;
+font-size: 75%;
+font-color:#666666;
+}
+
+
+.item-time {
+float:right;
+width: 110px;
+color:#666666;
+font-size: 75%;
+}
+
+table.site-scout-stats {
+color:#666666;
+font-size: 85%;
+}
+
+td.site-scout-stats-header {
+font-weight:800;
+}
+
+/**Login/Register**/
+
+.loginWindow{
+position:absolute;
+top:5px;left:5px;
+background-image:url("../../images/bluehatch.gif");
+padding:5px; 
+background-color:#F8F8F8;
+background-repeat: repeat-x;
+border: 1px solid #6D84B4;
+z-index:1000;
+width:460px;
+}
+
+input.register {
+font-size:16pt;
+}
+
+.registerlabel {
+color:#6D84B4;
+font-size:14pt;
+}
+
+.registertext {
+font-size:10pt;
+color:#666666;
+padding-left:8px;
+padding-bottom:10px;
+}
+
+input.registersubmit {
+padding:4px;
+background-image:url("../../images/tabGradient.gif");
+border:1px solid #dcdcdc;
+font-size:12pt;
+filter:chroma(color=#dcdcdc);
+}
+
+.registerclose {
+border-top:1px solid #dcdcdc;
+text-align:center;
+padding-top:10px;
+}
+
+/** Create Page **/
+
+.createsubtitle {
+font-size:8pt !important;
+color:#999999 !important;
+font-weight:normal !important;
+}
+
+input.createbox {
+border:1px solid #dcdcdc;
+font-size:12pt;
+font-family:arial;
+background-image:url(../../images/createbackground.gif);
+}
+
+textarea.createbox {
+border:1px solid #dcdcdc;
+font-size:12pt;
+font-family:arial;
+background-image:url(../../images/createbackground.gif);
+}
+
+input.createsubmit {
+padding:4px;
+background-image:url(../../images/tabGradient.gif);
+border:1px solid #dcdcdc;
+color:#6D84B4;
+font-size:10pt;
+filter:chroma(color=#dcdcdc);
+}
+
+/** Vote **/
+.votebox {
+border:1px solid #6D84B4;
+background-image:url("../../images/colleges/votebox.gif");
+font-weight:bold;
+font-size:16pt;
+}
+
+.votebutton {
+text-decoration:none;
+color:#6D84B4;
+font-size:11pt; 
+}
+
+/** Comments **/
+.commenticon {
+padding-left:35px !important;
+padding-bottom:5px;
+}
+
+.username {
+color:#6D84B4;
+font-size:13pt;
+font-weight:bold;
+}
+
+.username a {
+text-decoration:none;
+}
+
+.commenttime {
+color:#666666;
+font-size:8pt;
+}
+
+.commentscore {
+color:#6D84B4;
+font-size:9pt;
+font-weight:bold;
+}
+
+.reply {
+color:#6D84B4;
+font-size:11pt;
+text-align:right;
+text-decoration:underline;
+}
+
+.commentmiddle {
+border:1px #C2CDE0 solid;
+background-color:#F8F8F8;
+font-size:101%;
+line-height:1.35;
+padding:5px;
+}
+
+.replyto {
+color:#6D84B4;
+font-weight:800
+}
+
+.bluehatch {
+background-image:url("../../images/bluehatch.gif");
+padding:5px; 
+background-color:#F8F8F8;
+background-repeat: repeat-x;
+border: 1px solid #cccccc;
+}
+

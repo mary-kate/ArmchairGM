@@ -1,0 +1,449 @@
+<html>
+
+<head>
+<script type="text/javascript" src="http://fp029.sjc.wikia-inc.com/extensions/wikia/onejstorule.js?71"></script>
+<style>
+.pitch{
+	text-align:center;
+	font-size:11px;
+	font-weight:800;
+	color:#666666;
+	}
+</style>
+<script>
+
+var baserunners = parseInt("000",2) // baserunners as a binary number
+var hits = new Array();
+hits[1] = parseInt("001",2)
+hits[2] = parseInt("010",2)
+hits[3] = parseInt("100",2)
+hits[4] = parseInt("1000",2)
+
+var current_inning = 1
+var innings = new Array();
+innings[current_inning] = 0
+var at_bat = 1
+var outs = 0
+var hits_total = 0;
+var runs_total = 0;
+
+var pitches = new Array()
+pitches[1] = "fastball";
+pitches[2] = "curve";
+pitches[3] = "slider";
+pitches[4] = "changeup";
+
+var locations = new Array()
+locations[1] = "high and inside";
+locations[2] = "high and outside";
+locations[3] = "low and inside";
+locations[4] = "low and outside";
+
+var pitch_counts = new Array();
+var location_counts = new Array();
+var combined_counts = new Array();
+
+var opponent_pitches = new Array()
+
+
+var the_pitch = 0;
+var the_location = 0;
+var last_pitch = 0
+var last_location = 0
+
+//testing
+//baserunners = parseInt("100",2) 
+//move_runners(1)
+
+function get_random_pitch(){
+	random_location = get_random_number(4)
+	random_pitch = get_random_number(4)
+	pitch_counts[random_pitch] = ((pitch_counts[random_pitch])?pitch_counts[random_pitch]+1:1);
+	location_counts[random_location] = ((location_counts[random_location])?location_counts[random_location]+1:1);
+	//location_counts[random_location] = ((location_counts[random_location])?location_counts[random_location]+1:1);
+	opponent_pitches[at_bat] = [random_location,random_pitch]
+	
+}
+
+function get_baserunners_count(){
+	count = 0
+	runners = get_baserunners_bin().split("");
+	for(x= 0;x < 3;x++){
+		if( runners[x] == 1 ){
+			count++
+		}
+	}
+	return count;
+}
+
+function update_runners(){
+	baserunners_str = get_baserunners_bin();
+
+	if( baserunners_str.length < 3 ){
+		diff = 3 - baserunners_str.length 
+		for(x = 0; x<= diff-1; x++){
+			baserunners_str = "0" + baserunners_str;
+		}
+	}
+	
+	runners = baserunners_str.split("");
+	
+	runnersHTML  = ""
+	for(x= 0;x <= runners.length-1;x++){
+		runnersHTML += " " + ((x==1)?"<sup>":"") + ((runners[x])?runners[x]:0) + ((x==1)?"</sup>":"") + " ";
+	}
+	$("runners-display").innerHTML = "Runners on " + runnersHTML
+}
+
+function get_baserunners_bin(){
+	return baserunners.toString(2);
+}
+
+function calculate_runs(){
+	runs_scored = 0;
+	//alert( "calcruns:" + get_baserunners_bin() + "/length=" + get_baserunners_bin().length )
+	
+	if ( get_baserunners_bin().length > 3 ){
+		runners = get_baserunners_bin().split("");
+
+		count = 1
+		for(x= runners.length-1;x >= 0;x--){
+			if( count > 3 && runners[x] == 1 ){
+				runs_scored++;
+			}
+			count++
+		}
+	}
+	//alert("scored " + runs_scored)
+	if( runs_scored > 0 ){
+		innings[current_inning] += runs_scored
+	
+		$("inning-2-" + current_inning).innerHTML = innings[current_inning]
+		runs_total += runs_scored
+		$("runs-2").innerHTML = runs_total
+	}
+	
+}
+
+function next_inning(){
+	if( current_inning == 9 ){
+		alert("Game over");
+		return
+	}
+	$("inning-2-" + current_inning).innerHTML = ((innings[current_inning])?innings[current_inning]:0)
+	current_inning++
+	$("inning").innerHTML = current_inning
+	innings[current_inning] = 0
+	clear_baserunners();
+	clear_outs();
+}
+
+function clear_baserunners(){
+	baserunners = 0
+}
+
+function move_runners(bases){
+
+	baserunners = baserunners << bases; 
+	baserunners = baserunners | hits[bases]; 
+	
+	calculate_runs()
+	//alert( get_baserunners_bin() )
+	if ( get_baserunners_bin().length > 2 ){
+		baserunners = parseInt( get_baserunners_bin().substr(-3), 2 );
+	}
+	
+}
+
+function get_random_number(max){
+	return Math.floor(Math.random()*max+1);
+}
+
+function next_atbat(){
+	clear_loc();
+	clear_pitch();
+	the_location = 0
+	the_pitch = 0;
+}
+function clear_loc(){
+	for(x=1;x<=4;x++){
+		$El("loc-"+x).setStyle('backgroundColor', '');
+	}
+}
+
+function set_loc(loc){
+	the_location = loc
+	clear_loc();
+	$El("loc-"+loc).setStyle('backgroundColor', '#FFFCA9');	
+}
+
+function clear_pitch(){
+	for(x=1;x<=4;x++){
+		$El("pitch-"+x).setStyle('backgroundColor', '');
+	}
+}
+function set_pitch(pitch){
+	the_pitch = pitch
+	clear_pitch();
+	$El("pitch-"+pitch).setStyle('backgroundColor', '#FFFCA9');
+		
+}
+
+function doHover(divID) {
+	if( divID.indexOf("loc-") > -1 ){
+		loc = divID.replace("loc-","")
+		
+		if( location_counts[loc] ){
+			percentage = (location_counts[loc] / (at_bat-1) ) * 100 
+			$(divID).innerHTML = Math.round(percentage) + "%"
+			}
+	}
+	$El(divID).setStyle('backgroundColor', '#FFFCA9'); 
+}
+
+function endHover(divID){
+	if( divID != "loc-" + the_location && divID != "pitch-" + the_pitch){
+		$El(divID).setStyle('backgroundColor', '');
+	}
+	if( divID.indexOf("loc-") > -1 ){
+	$(divID).innerHTML = '&nbsp;';
+	}
+}
+
+function swing(){
+	get_random_pitch()
+	
+	if( the_pitch == last_pitch && the_location == last_location){
+		alert("You can't guess the same pitch twice!");
+		return "";
+	}
+	$("last-play").innerHTML = "Looking for a " + pitches[the_pitch] + " " + locations[the_location] + ", the pitcher threw a " + 
+	pitches[ opponent_pitches[at_bat][1] ] + " " + locations[ opponent_pitches[at_bat][0] ]
+	
+	match = 0;
+	hit_chance = 0;
+	diff_pitch = 0 
+	diff_loc = 0;
+	if( the_pitch != opponent_pitches[at_bat][1] ){
+		diff_pitch = 1
+		$El("pitch-"+opponent_pitches[at_bat][1]).setStyle('backgroundColor', 'red');	
+	}else{
+		match++
+		$El("pitch-"+opponent_pitches[at_bat][1]).setStyle('backgroundColor', '#78BA5D');
+	}
+	if( the_location != opponent_pitches[at_bat][0] ){
+		diff_loc = Math.abs(the_location - opponent_pitches[at_bat][0] )
+		$El("loc-"+opponent_pitches[at_bat][0]).setStyle('backgroundColor', 'red');	
+	}else{
+		match++
+		$El("loc-"+opponent_pitches[at_bat][0]).setStyle('backgroundColor', '#78BA5D');
+	}
+	
+	if( match == 2 ){
+		hit_chance = 100;
+	}else{
+		diff = diff_pitch + diff_loc
+		hit_chance = 100 - (60 + (diff * 10));
+	}
+	
+	if( match == 1 && the_location == opponent_pitches[at_bat][0] && the_location < 3 ){
+		hit_chance += 10;
+	}
+	
+	is_hit = false;
+	var odds=Math.floor(Math.random()*101); // odds is a float type.
+	
+	if( odds <= hit_chance ){
+		is_hit = true
+	}
+	
+	if( is_hit == true ){
+		hits_total++
+		$("hits-2").innerHTML = hits_total
+		play = "";
+		hr = check_hit(hit_chance, 20, 5);
+		if( hr == true ){
+			play = "Home Run!";
+			
+			move_runners(4);
+			clear_baserunners();
+		}
+		if(!play){
+			triple = check_hit(hit_chance, 40, 10);
+			if( triple == true ){
+				play = "Triple";
+				move_runners(3);
+			}
+		}
+		if(!play){
+			dbl = check_hit(hit_chance, 75, 33);
+			if( dbl == true ){
+				play = "Double";
+				move_runners(2);
+			}
+		}
+		if(!play){
+			play="Single";
+			move_runners(1);
+			}
+			
+			update_runners()
+		
+	}else{
+		play = "Out";
+		increase_outs();
+	}
+	el = document.createElement("div");
+	//el.setAttribute('id', "inning-atbat-" + at_bat); 
+	el.innerHTML = "At-bat #" + at_bat + ": " + play + " (" + hit_chance + "% chance of a hit, random was  " + odds + ")";
+	$D.insertAfter(el,"inning-name");
+	at_bat++;
+	last_pitch = the_pitch
+	last_location = the_location
+}
+
+function check_hit(chance,bonus,odds){
+	if( chance == 100 ){
+		hit_type_chance = bonus;
+	}else{
+		hit_type_chance = odds;
+	}
+	var odds=Math.floor(Math.random()*101); // odds is a float type.
+	//$("debug").innerHTML += ("chance is " + hit_type_chance + " and odds are " + odds)
+	if( odds <= hit_type_chance ){
+		return true
+	}
+	return false
+}
+
+function increase_outs(play){
+	outs++
+	
+	if( outs == 3 ){
+		next_inning()
+	}else{
+		$("outs").innerHTML = outs;
+	}
+}
+function clear_outs(){
+	outs = 0
+	$("outs").innerHTML = outs;
+}
+</script>
+</head>
+
+<body>
+<table><tr><td valign=top>
+<table><tr><td valign=top>
+<b>Scoreboard</b>
+<table>
+	<tr>
+		<td>-</td>
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+		<td>4</td>
+		<td>5</td>
+		<td>6</td>
+		<td>7</td>
+		<td>8</td>
+		<td>9</td>
+		<td>R</td>
+		<td>H</td>
+		<td>E</td>
+	</tr>
+	<tr>
+		<td>Visitors</td>
+		<td>1</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>0</td>
+		<td>3</td>
+		<td>9</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>Home</td>
+		<td id="inning-2-1">-</td>
+		<td id="inning-2-2">-</td>
+		<td id="inning-2-3">-</td>
+		<td id="inning-2-4">-</td>
+		<td id="inning-2-5">-</td>
+		<td id="inning-2-6">-</td>
+		<td id="inning-2-7">-</td>
+		<td id="inning-2-8">-</td>
+		<td id="inning-2-9">-</td>
+		<td id="runs-2">0</td>
+		<td id="hits-2">-</td>
+		<td>0</td>
+	</tr>	
+</table>
+</td><td valign=top>
+<p>
+<b>Baseball Diamond</b>
+<table>
+	<tr>
+		<td id="runners-display">No Runners On</td>
+	</tr>
+	<tr>
+		<td>Outs: <span id="outs">0</span></td>
+	</tr>
+	<tr>
+		<td>Inning: <span id="inning">1</span></td>
+	</tr>
+</table>
+</td></tr></table>
+<h3>At-Bat</h3>
+<p>
+<table>
+<tr>
+<td>
+<b>Location</b>
+<table width="120" height="120" bgcolor="#eeeeee" border="1" bordercolor="#666666" cellspacing=0 cellpadding=0>
+	<tr>
+		<td width=60 class="pitch" onclick=javacript:set_loc(1) id="loc-1" onmouseover="doHover('loc-1')" onmouseout="endHover('loc-1')">&nbsp;</td><td onclick=javacript:set_loc(2) id="loc-2" onmouseover="doHover('loc-2')" onmouseout="endHover('loc-2')" class="pitch" width=60>&nbsp;</td>
+	</tr>
+	<tr>
+		<td width=60 class="pitch" onclick=javacript:set_loc(3) id="loc-3" onmouseover="doHover('loc-3')" onmouseout="endHover('loc-3')">&nbsp;</td><td onclick=javacript:set_loc(4) id="loc-4" onmouseover="doHover('loc-4')" onmouseout="endHover('loc-4')" class="pitch" width=60>&nbsp;</td>
+	</tr>
+</table>
+</td>
+<td>
+<b>Pitch</b>
+<table width="120" height="120" bgcolor="#eeeeee" border="1" bordercolor="#666666" cellspacing=0 cellpadding=0>
+	<tr>
+		<td onclick=javacript:set_pitch(1) id="pitch-1" onmouseover="doHover('pitch-1')" onmouseout="endHover('pitch-1')" class="pitch">fastball</td><td  onclick=javacript:set_pitch(2)  class="pitch" id="pitch-2" onmouseover="doHover('pitch-2')" onmouseout="endHover('pitch-2')">curve</td>
+	</tr>
+	<tr>
+		<td onclick=javacript:set_pitch(3) id="pitch-3" onmouseover="doHover('pitch-3')" onmouseout="endHover('pitch-3')" class="pitch">slider</td><td  onclick=javacript:set_pitch(4)  class="pitch" id="pitch-4" onmouseover="doHover('pitch-4')" onmouseout="endHover('pitch-4')">changeup</td>
+	</tr>
+</table>
+</td>
+</tr>
+</table>
+<p><input type="button" value="Swing!" onclick=swing()> <input type="button" value="next atbat" onclick=next_atbat()></p>
+</td><td width=50>&nbsp;</td><td valign=top>
+<p>
+<b>Last Play Result</b>
+<table>
+	<tr>
+		<td id="last-play">-</td>
+	</tr>
+</table>
+
+<p>
+<b>Inning Play by Play</b>
+<div id="inning-name"></div>
+<p>
+<b>debug</b>
+<div id="debug">-</div>
+</td></tr></table>
+
+
+</body>
+</html>

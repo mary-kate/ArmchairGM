@@ -1,0 +1,845 @@
+body {
+	text-align: center;
+	font-family:Arial;
+	line-height:105%;
+}
+
+a {
+	color:#285C98;	
+}
+
+a:hover {
+	color:#78BA5D;
+}
+
+p {
+	margin:0;
+	padding:0;
+}
+
+.cleared {
+	clear:both;
+}
+
+form {
+	margin:0px 0px 0px 0px;	
+}
+
+.site-button {
+	background-color:#78BA5D;
+	border:1px solid #6B6B6B;
+	color:#FFFFFF;
+	font-size:12px;
+	padding:3px;
+}
+
+h1.pagetitle {
+	line-height:24px;
+	width:580px;
+	border: 1px solid #dcdcdc;
+	text-align: center;
+	background:transparent url('/images/siimages/title-background.jpg') repeat scroll left top;
+	margin: 0px;
+	float:left;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#title-menu {
+	width: 100%;
+	margin: 5px 0px 10px 0px;
+	padding: 0px;
+	height:30px;
+}
+
+/*Top Navigation*/
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0;
+	text-align:left;
+	width:990px;
+}
+
+#top-ad {
+	/*text-align:center !important;*/
+	margin:0px 0px 5px 0px;
+	padding-right:22px;
+	float:left;
+}
+
+#top-ad-right {
+	/*text-align:center !important;*/
+	margin:0px 0px 15px 0px;
+	float:left;
+}
+.navigation-top {
+	margin:0px 0px 0px 8px;
+	height:55px;
+}
+
+.logo {
+	float:left;
+	margin:0px 10px 0px 0px;
+}
+
+.logo img {
+	vertical-align:middle;
+}
+
+.tag-line {
+	float:left;
+	color:#797979;
+	font-size:14px;
+	font-weight:bold;
+	line-height:40px;
+	margin:0px 0px 0px 5px;
+}
+
+.navigation-links {
+	float:left;
+	color:#797979;
+	font-size:12px;
+	font-weight:bold;
+	line-height:40px;
+	margin:0px 0px 0px 25px;
+}
+
+.logout-fix {
+	padding:4px 0px 0px 0px;
+	line-height:16px;
+	height:40px;
+}
+
+.add-friends {
+	float:left;
+	background-color:#FFFCA9;
+	border:1px solid #FDC745;
+	color:#285C98;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	padding:0px 9px;
+	line-height:40px;
+	margin:0px 0px 0px 25px;
+}
+
+.add-friends a {
+	text-decoration:none;
+}
+
+/**Navigation Menu**/
+
+#tabs {
+	margin:0px 0px 0px 10px;
+	height:23px;
+}
+
+.tab-off a {
+	background:transparent url('http://images.wikia.com/openserving/sports/images/common/tab-right.gif') no-repeat scroll right top;
+	float:left;
+	padding:0;
+	margin:0px 3px 0px 0px;
+	color:#fff;
+	text-decoration:none;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.tab-off span {
+	background:transparent url('http://images.wikia.com/openserving/sports/images/common/tab-left.gif') no-repeat scroll left top;
+	display:block;
+	float:left;
+	line-height:23px;
+	padding:0px 16px;
+	margin:0;
+	cursor:pointer;
+}
+
+.tab-on a {
+	background:transparent url('http://images.wikia.com/openserving/sports/images/common/tab-right-on.gif') no-repeat scroll right top;
+	float:left;
+	padding:0;
+	margin:0px 3px 0px 0px;
+	color:#fff;
+	text-decoration:none;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.tab-on span {
+	background:transparent url('http://images.wikia.com/openserving/sports/images/common/tab-left-on.gif') no-repeat scroll left top;
+	display:block;
+	float:left;
+	padding:0px 16px;
+	line-height:23px;
+	margin:0;
+}
+
+.tab-off a:hover {
+	color:#0b1929;
+}
+
+.tab-on a:hover {
+	color:#fff;
+}
+
+#sub-menu-bar {
+	position:relative;
+	background-color:#89C46F;
+	border-bottom:1px solid #6B6B6B;
+	height:30px;
+}
+
+.sub-menu {
+	float:left;	
+	margin:5px 0px 0px 9px;
+	width:750px;
+}
+
+.sub-menu a {
+	text-decoration:none;
+	color:#2e4724;
+	padding:3px;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.sub-menu a:hover {
+	background-color:#c1e2a5;
+	color:#2e4724;
+}
+
+.sub-menu-on a {
+	color:#2e4724;
+	padding:3px;
+	font-size:12px;
+	font-weight:bold;
+	background-color:#c1e2a5;
+}
+
+/**Main Window**/
+#main {
+	padding:0px 10px 10px 0px;
+	font-size:12px;
+	width: 680px;
+	float:left;
+	/*border: 1px solid #dcdcdc;*/
+
+}
+
+#main p {
+	margin:10px 0px 0px 0px;
+}
+
+/** Right Sidebar **/
+#sidebar-right {
+	padding:0px 0px 10px 0px;
+	font-size:12px;
+	width: 300px;
+	float:left;
+}
+
+#sidebar-right p {
+	margin:10px 0px 0px 0px;
+}
+
+/**Edit Menu**/
+#edit-menu {
+	position: relative;
+	top:0px;
+	left:0px;
+	margin: 0px;
+	float:right;
+}
+
+#edit-button {
+	background-color:#FFFCA9;
+	border:1px solid #FDC745;
+	padding:4px 0px 3px 5px;
+	width:90px;
+}
+
+#edit-button a {
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px !important;
+}
+
+a.edit-action-menu { display:block; float:left; background:url('http://images.wikia.com/openserving/sports/images/common/edit-sprite.gif') no-repeat left top; padding:0px 0px 0px 24px; }
+
+a.edit-menu-arrow {
+	position:relative;
+	display:block;
+	float:right;
+	background:url('http://images.wikia.com/openserving/sports/images/common/edit-sprite.gif') no-repeat 0px -160px;
+	width:16px;
+	height:16px;
+	padding:0px 3px 0px 0px;
+}
+
+a:hover.edit-menu-arrow {
+	position:relative;
+	display:block;
+	float:right;
+	background:url('http://images.wikia.com/openserving/sports/images/common/edit-sprite.gif') no-repeat 0px -200px;
+	width:16px;
+	height:16px;
+	padding:0px 3px 0px 0px;
+}
+
+.edit-sub-menu {
+	background-color:#FFFFFF;
+	border-top:1px solid #f7d789;
+	border-left:1px solid #f7d789;
+	border-right:2px solid #FDC745;
+	border-bottom:1px solid #f7d789;
+	left:-41px;
+	padding:10px 5px 10px;
+	position:absolute;
+	top:28px;
+	width:125px;
+}
+
+.edit-sub-menu a {
+	text-decoration:none;
+}
+
+a.edit-action { display:block; background:url('http://images.wikia.com/openserving/sports/images/common/edit-sprite.gif') no-repeat left top; padding:0px 0px 3px 24px; }
+a.page-history-action { display:block; background:url('http://images.wikia.com/openserving/sports/images/common/edit-sprite.gif') no-repeat 0px -20px; padding:0px 0px 3px 24px; }
+a.move-action { display:block; background:url('http://images.wikia.com/openserving/sports/images/common/edit-sprite.gif') no-repeat 0px -40px; padding:0px 0px 3px 24px; }
+a.what-links-here-action { display:block; background:url('http://images.wikia.com/openserving/sports/images/common/edit-sprite.gif') no-repeat 0px -60px; padding:0px 0px 3px 24px; }
+a.protect-action { display:block; background:url('http://images.wikia.com/openserving/sports/images/common/edit-sprite.gif') no-repeat 0px -80px; padding:0px 0px 3px 24px; }
+a.delete-action { display:block; background:url('http://images.wikia.com/openserving/sports/images/common/edit-sprite.gif') no-repeat 0px -100px; padding:0px 0px 3px 24px; }
+a.watch-action { display:block; background:url('http://images.wikia.com/openserving/sports/images/common/edit-sprite.gif') no-repeat 0px -120px; padding:0px 0px 3px 24px; }
+a.upload-file-action { display:block; background:url('http://images.wikia.com/openserving/sports/images/common/edit-sprite.gif') no-repeat 0px -140px; padding:0px 0px 3px 24px; }
+a.discuss-action { display:block; background:url('http://images.wikia.com/openserving/sports/images/common/edit-sprite.gif') no-repeat 0px -180px; padding:0px 0px 3px 24px; }
+
+/**Footer**/
+#footer {
+	border-top:1px solid #efefef;
+	background:#faf9f9;
+	padding:18px 10px;
+	margin:0px 0px 0px 0px;
+}
+
+#footer h2 {
+	font-size:16px;
+	color:#777;
+	margin:0;
+	padding:0px 0px 10px 0px;
+}
+
+#footer p {
+	margin:0px 0px 12px 0px;
+	font-size:11px;
+	line-height:12px;
+}
+
+#footer-actions {
+	float:left;
+	width:290px;
+	border-right:1px #dcdcdc solid;
+	margin:0px 40px 0px 0px;
+}
+
+#footer-actions a {
+	text-decoration:none;
+	font-size:13px;
+}
+
+#footer-contributors {
+	float:left;
+	width:300px;
+	height:125px;
+	border-right:1px #dcdcdc solid;
+	margin:0px 40px 0px 0px;
+
+}
+
+#footer-contributors a {
+	text-decoration:none;
+}
+
+#footer-contributors img {
+	border:1px solid #dcdcdc;
+	padding:3px;
+	background:#fff;
+	margin:0px 3px 0px 0px;
+}
+
+#footer-bottom {
+	border-top:1px #dcdcdc solid;
+	padding:5px 0px 5px 0px;
+	text-align:center;
+}
+
+#footer-widget {
+	float:left;
+
+}
+
+#footer-widget input {
+	font-size:11px;
+
+}
+
+img.gnu-image {
+	display:block;
+	float:left;
+}
+
+img.right-image {
+	display:block;
+	float:right;
+}
+
+#footer-bottom a {
+	text-decoration:none;
+	margin:0px 5px 0px 0px;
+	font-size:12px;
+}
+
+/**Vote Box**/
+.vote-box {
+	background-color:#89C46F;
+	height:30px;
+	padding:13px 0px 0px;
+	text-align:center;
+	width:43px;
+}
+
+.vote-number {
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.vote-action {
+	text-align:center;
+	width:43px;
+}
+
+.vote-action a {
+	font-weight:bold;
+	font-size:11px;
+	text-decoration:none;
+}
+
+.rating-score {
+	background-color:#89C46F;
+	color:#FFFFFF;
+	float:left;
+	font-size:16px;
+	font-weight:bold;
+	height:30px;
+	margin:0px 10px 0px 0px;
+	padding:13px 0px 0px;
+	text-align:center;
+	width:43px;
+}
+
+.rating-section img {
+	vertical-align:middle;
+}
+
+.rating-voted {
+	color:#666666;
+	font-size:11px;
+}
+
+/**Player Profile**/
+.player-profile-top {
+	background-color:#F2F4F7;
+	border:1px solid #D7DEE8;
+	padding:10px;
+	margin:0px 0px 15px 0px;
+	width:100%;
+}
+
+.player-profile-information {
+	margin:0px 0px 0px 20px;
+	width:600px;
+}
+
+.player-profile-information td {
+	width:50%;
+}
+
+table.player-profile-stats {
+	border:1px solid #dcdcdc;
+	border-collapse:collapse;
+}
+
+.player-profile-stats-header {
+	background-color:#d1d0d0;
+}
+
+.player-profile-stats-total {
+	background-color:#f1f1f1;
+}
+
+td.player-profile-image {
+	width:150px;
+	text-align:center;
+}
+
+.player-profile-image p {
+	margin:2px 0px 0px 0px !important;
+}
+
+.player-profile-image a {
+	text-decoration:none;
+}
+
+/**Comments**/
+.full {
+	width:530px;
+}
+
+.reply {
+	margin-left:70px !important;
+	width:460px;
+}
+
+.c-item {
+	position:relative;
+	border-bottom: 1px solid #dcdcdc;
+	padding:0px 0px 10px 0px;
+	margin:0px 0px 15px 0px;
+}
+
+.c-avatar {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.c-avatar img {
+	padding:3px;
+	border:1px solid #dcdcdc;
+	background-color:#fff;
+}
+
+.c-container {
+	position:relative;
+	top:0px;
+	top:0px;
+	margin:0px 0px 0px 70px;
+	z-index:2;
+}
+
+.c-user {
+	font-weight:bold;
+	position:relative;
+	margin:0px 0px 6px 0px;
+}
+
+.c-user a {
+	font-size:14px;
+	text-decoration:none;
+}
+
+.c-time {
+	font-size:10px;
+	color:#888;
+	line-height:11px !important;
+	font-weight:normal !important;
+}
+
+.c-user-level {
+	color:#666;
+	font-size:11px;
+	margin:0px 5px 0px 5px;
+}
+
+.c-comment {
+	overflow:auto;
+}
+
+.c-ignored {
+	color:#666;
+	font-size:11px;
+	padding:5px 0px 10px 0px;
+	margin:0px 0px 15px 0px;
+	border-bottom:1px solid #dcdcdc;
+}
+
+.c-ignored-links a {
+}
+
+.f-message {
+	width:460px;
+}
+
+.r-message {
+	width:360px;
+}
+
+.c-score {
+	position:absolute;
+	top:-2px;
+	right:0px;
+	font-size:11px;
+	padding-top:6px;
+	font-weight:bold;
+	z-index:4;
+}
+
+.c-score-title {
+	margin:0px 10px 0px 0px;
+} 
+
+.c-actions {
+	float:right;
+	font-size:10px;
+	margin:10px 0px 0px 0px;
+}
+
+.c-delete a {
+	color:red !important;
+}
+
+.c-score img {
+	vertical-align:middle;
+	margin:-5px 0px 0px 2px
+}
+
+.c-form-title {
+	color:#333;
+	font-weight:bold;
+	font-size:17px;
+	margin:0px 0px 5px 0px;
+}
+
+.c-form-message {
+	font-size:11px;
+	width:400px;
+	line-height:13px;
+	color:#666;
+	padding:5px 0px 10px 0px;
+}
+
+textarea#comment {
+	width:530px;
+}
+
+.c-form-button {
+	padding:10px 0px 0px;
+}
+
+.c-order {
+	padding:20px 0px;
+}
+
+.c-spy {
+	float:left;
+	font-size:10px;
+	margin:0px 0px 0px 10px;
+}
+
+.c-order-select {
+	float:left;
+}
+
+/* ListPages */
+
+.listpages-left {
+	float:left;
+	border:1px solid #dcdcdc;
+	width:500px;
+}
+
+.listpages-link {
+	margin:0px;
+	padding:0px;
+}
+
+.listpages-item {
+	margin-top:10px;
+}
+
+.listpages-item a {
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+.listpages-image {
+	float:left;
+	margin-right:10px;
+}
+
+.listpages-categories {
+	color:#78BA5D;
+	font-size:10px;
+	font-weight:bold;
+}
+
+.listpages-categories a {
+	color:#78BA5D;
+	font-size:10px;
+	text-decoration:none;
+	border-bottom:1px dotted #78BA5D;
+}
+
+.listpages-date {
+	color:#888;
+	font-size:10px;
+}
+
+.listpages-stats {
+	color:#666;
+	font-weight:bold;
+	font-size:11px;
+}
+
+.listpages-stats img {
+	vertical-align:middle;
+	margin:-2px 1px 0px 2px;
+}
+
+.listpages-votebox {
+	float:left;
+	margin:0px 10px 3px 0px;
+	text-align:center;
+	width:25px;
+}
+
+.rating-total {
+	color:#666;
+	font-weight:bold;
+	font-size:11px;
+}
+
+.listpages-votebox-number {
+	background-color:#89C46F;
+	color:#FFFFFF;
+	padding:3px 0px 0px;
+	margin:0px 0px 2px 0px;
+	font-weight:bold;
+	height:22px;
+}
+
+.listpages-votebox-text {
+	margin:-1px 0px 0px 0px;
+	font-size:9px;
+	color:#777;
+	line-height:9px;
+}
+
+.listpages-commentbox-number {
+	background-color:orange;
+	color:#FFFFFF;
+	font-weight:bold;
+	height:22px;
+	margin:0px 0px 2px;
+	padding:3px 0px 0px;
+}
+
+.listpages-blurb {
+	margin:0px 0px 2px 0px;
+}
+
+.listpages-blurb a {
+	font-size:11px;
+	text-decoration:underline;
+}
+
+.listpages-nav-buttons {
+	margin:10px 0px 0px 0px;
+}
+
+.listpages-blurb-size-small {
+	font-size:11px;
+	line-height:15px;
+}
+
+.listpages-blurb-size-medium {
+	font-size:12px;
+	line-height:16px;
+}
+
+.listpages-blurb-size-large {
+	font-size:13px;
+	line-height:17px;
+}
+
+.listpage-button {
+	background-color:#FAFAFA;
+	border:1px solid #DCDCDC;
+	color:#376EA6;
+	font-size:12px;
+	padding:3px;
+	margin:0px 3px 0px 0px;
+}
+
+.listpage-button-off {
+	background-color:#FAFAFA;
+	border:1px solid #DCDCDC;
+	color:#797979;
+	font-size:12px;
+	padding:3px;
+	margin:0px 3px 0px 0px;
+}
+
+.listpages-nav-buttons a {
+	margin:0px 5px 0px 0px;
+}
+
+/**Search**/
+.search-form {
+	position:absolute;
+	right:5px;
+	top:4px;
+}
+
+.search-input {
+	float:left;
+	margin:0px 3px 0px 0px;
+}
+
+.search-input input {
+	width:175px;
+	height:16px;
+	padding:0px 0px 0px 1px;
+}
+
+.search-button {
+	cursor:pointer;
+	float:left;
+	background:transparent url('http://images.wikia.com/openserving/sports/images/common/search.png') no-repeat scroll top left;
+	width:53px;
+	height:22px;
+}
+
+/**Random Legacy Css*/
+.title {
+	font-size:12px;
+	font-weight:bold;
+	color:#333;
+}
+
+/**Wikitable*/
+table.wikitable th, table.prettytable th {
+	background:#F2F2F2 none repeat scroll 0%;
+	text-align:center;
+}
+
+table.wikitable th, table.wikitable td, table.prettytable th, table.prettytable td {
+	border:1px solid #AAAAAA;
+	padding:0.2em;
+}
+
+table.wikitable, table.prettytable {
+	border-collapse:collapse;
+}
+
+table.wikitable th, table.wikitable td, table.prettytable th, table.prettytable td {
+	border:1px solid #AAAAAA;
+	padding:0.2em;
+}
+
+table.wikitable td, table.prettytable td {
+	background-color:#F9F9F9;
+}

@@ -1,0 +1,87 @@
+.wikiwyg_toolbar {
+    background: #F0F0EE;
+    border: 1px solid #dcdcdc;
+    letter-spacing: 0;
+    padding: 2px;
+}
+
+span.wikiwyg_control_link a {
+    padding-right: 8px;
+}
+
+.wikiwyg_button {
+    background: #F0F0EE;
+    border: 1px solid #F0F0EE;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+.wikiwyg_button:hover {
+    border: 1px outset;
+}
+
+.wikiwyg_button:active {
+    border: 1px inset;
+}
+
+.wikiwyg_separator {
+    background: #F0F0EE;
+    border: 1px solid #F0F0EE;
+    width: 9px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+.wikiwyg_selector {
+    width: 70px;
+}
+
+.wikiwyg_wysiwyg table {
+    border-collapse: collapse;
+    margin-bottom: .2em;
+}
+
+.wikiwyg_wysiwyg table td {
+    border: 1px solid #dcdcdc;
+    border-style: solid;
+    padding: .2em;
+    vertical-align: top;
+	color:#990000;
+}
+
+#wikiwyg_wikitext_textarea{
+	font-family:Arial;
+}
+
+.wikiwyg_wysiwyg_popup {
+	position:absolute;
+	padding:5px; 
+	background-color:#F0F0EE;
+	border: 1px solid #dcdcdc;
+	z-index:1000;
+	width:250px;
+}
+
+.wikiwyg_link_title{
+	font-family:Arial;
+	font-weight:800;
+	font-size:11px;
+	color:#26579A;
+	padding-bottom:5px;
+}
+
+.wikiwyg_link_label{
+	font-family:Arial;
+	font-weight:800;
+	font-size:10px;
+}
+
+.wikiwyg_link input{
+	border:1px solid #dcdcdc;
+	font-size:11px;
+	font-family:arial;
+	background-image:url(../../images/createbackground.gif);
+}
+

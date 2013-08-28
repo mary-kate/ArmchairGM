@@ -1,0 +1,74 @@
+
+.madness-background {
+	position:absolute;
+	top:290px;
+	left:350px;
+	height:40px;
+	width:220px;	
+}
+
+.picks-table {
+	margin-top: 5px;
+	padding-top: 5px
+}
+
+
+table div {
+	border:1px solid #dcdcdc;
+	margin:3px 2px 0px 2px;
+	width:82px;
+	padding-top: 1px;
+	font-size:8px;
+	height: 12px;
+	vertical-align: middle;
+	
+}
+
+
+
+table span {
+	font-size:12px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.correct-pick {
+	color: green;
+}
+
+.incorrect-pick {
+	color: red;
+}
+
+.incorrect-pick-forward {
+	color: #ffaaaa;
+}
+
+.printable-picks-left {
+	float: left;
+	margin-right: 20px;
+}
+
+.printable-picks-right {
+	float: left;
+	margin-left: 20px;
+}
+
+.final-four-picks {
+	position:absolute;
+	top: 330px;
+	left: 310px;
+}
+
+.final-four-pick-left {
+	text-align: center;
+}
+
+.final-four-pick-right {
+	text-align: center;
+}
+
+.finals-pick {
+	width: 125px;
+	text-align: center;
+}

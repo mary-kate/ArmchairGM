@@ -1,0 +1,29 @@
+#edit-menu {
+	margin:15px 0px 0px 0px;
+}
+
+#edit-button {
+	padding:6px 0px 0px 5px;
+}
+
+.relationship-item, .g-item, .ga-item {
+	margin-bottom:0px;
+}
+
+#upload-container {
+	margin-top:-30px;
+	margin-left:-10px;
+}
+
+.imageUpload-frame {
+	height:90px;
+}
+
+.site-button, .listpage-button-off, .listpage-button-on {
+	Filter:Chroma(Color=#000000);
+}
+
+.mp-large-title-container {
+	padding:0px !important;
+	margin:0px 0px 18px 0px;
+}

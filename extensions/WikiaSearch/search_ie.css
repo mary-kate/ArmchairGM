@@ -1,0 +1,20 @@
+#header-search-bar input {
+	font-size:17px;
+	padding:0px 0px 0px 3px;
+}
+
+#sr-search-bottom {
+	left:50px;
+}
+
+#status-bar input {
+	height:30px;
+}
+
+.status-bar-button {
+	margin-top:1px;
+}
+
+#messages {
+	padding:15px 0px 0px 0px;
+}

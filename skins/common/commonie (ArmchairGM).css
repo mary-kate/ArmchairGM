@@ -1,0 +1,125 @@
+.nav-tabs {
+	margin:10px 0px 0px 5px;
+}
+
+.sub-menu {
+	margin:7px 0px 0px 6px;
+}
+
+.edit-sub-menu {
+	top:26px;
+}
+
+.search-box {
+	width:220px;
+}
+
+.edit-menu {
+	margin:9px 0px 0px 10px;
+} 
+
+.add-friends {
+	margin:5px 20px 10px 40px;
+}
+
+.fan-top-right {
+	height:162px;
+}
+
+.fan-network-sub-text {
+	margin:-10px 0px 10px 0px !important;
+}
+
+.logged-out-articles h1, .featured-users h1, .top-fans h1, .recent-gifts h1, .browse-encyclopedia h1, .featured-ratings h1, .main-page-friends-activity h1 {
+	margin:0px 0px 0px 0px !important;
+}
+
+/**ListPage**/
+.listdate, .categorylinks, .listblurb, .showdetails {
+margin:0;
+padding:0;
+}
+
+#frontleft .listpageItem {
+width:98%;
+}
+
+#frontratings .listpageItem {
+padding:0px 0px 0px 0px;
+margin:10px 0px 0px 0px;
+}
+
+#frontratings .categorylinks, #frontratings .listpage img {
+padding:0px 0px 10px 0px;	
+}
+
+#frontratings input {
+margin:10px 0px 0px 0px;	
+}
+
+.smallList h1  {
+padding:0;
+margin:0px 0px 10px 0px;
+}
+
+#middlemain .smallList {
+padding:12px 0px 12px 0px;
+border-bottom:1px solid #dcdcdc;
+}
+
+.welcomeMessage h1 {
+margin:0px 0px 0px 0px;
+padding:0px 0px 0px 0px;
+}
+
+#userpageAvatar {
+margin:10px 0px 0px 5px;	
+}
+
+#rssfootersub {
+margin:-4px 0px 0px 0px;	
+}
+
+#topmain {
+height:30px;	
+}
+
+.categorylinkstitle {
+margin:0;
+padding:0;
+}
+
+.middleside p, #userside p {
+padding:0px 0px 6px 0px;	
+}
+
+/**Friending Hacks**/
+.user-gift, .relationship-item {
+margin:0px 10px 0px 0px;
+}
+
+.give-gift {
+margin:0px 10px -10px 0px;	
+}
+
+.friend-request-links, .friend-links, .gift-links, .invite-links {
+margin:18px 0px 10px 0px;	
+}
+
+.invite-right-image {
+	margin:0px 0px 0px 24px !important;
+}
+
+.user-tab-end {
+	padding:6px 0px 0px 0px !important;
+}
+
+#user-tab-on {
+	padding:3px 0px 3px 0px;
+	text-align:center;
+}
+
+#user-tab-off {
+	padding:3px 0px 3px 0px;
+	text-align:center;
+}

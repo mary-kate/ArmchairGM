@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+  <name>Olympic Host Cities</name>
+  <description><![CDATA[A map of cities which have hosted the Olympic Games or are slated to. Includes locations where Games were cancelled or moved. Links to more information on Wikipedia.]]></description>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style50">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style53">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style54">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style48">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style58">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style56">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style47">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style44">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style45">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style55">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style49">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style52">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style46">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style43">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style57">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style51">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/icons/orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>1896: Athens, Greece</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/gr_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1896_Summer_Olympics">1896 Summer Games I</a><br>Athens<br>Greece<br>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>23.745916,37.976952,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1900: Paris, France</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/fr_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1900_Summer_Olympics">1900 Summer Games II</a><br>Paris<br>France<br>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>2.341117,48.861099,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1904: St Louis, USA</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/USA.gif"><br><a href="http://en.wikipedia.org/wiki/1904_Summer_Olympics">1904 Summer Games III</a><br>St Louis, MO<br>USA<br>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>-90.197777,38.627220,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1906: Athens, Greece</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/gr_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1906_Summer_Olympics">1906 Summer Games (Intercalated)</a><br>Athens<br>Greece<br>]]></description>
+    <styleUrl>#style50</styleUrl>
+    <Point>
+      <coordinates>23.719137,37.976406,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1908: London, UK</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/uk_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1908_Summer_Olympics">1908 Summer Games IV</a><br>London<br>UK<br>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>-0.144195,51.510452,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1912: Stockholm, Sweden</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/se_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1912_Summer_Olympics">1912 Summer Games V</a><br>Stockholm<br>Sweden<br>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>18.060150,59.334942,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1916: Berlin, Germany</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/de_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1916_Summer_Olympics">1916 Summer Games VI</a><br>Berlin<br>Germany<br>(Cancelled due to World War I)<br>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>13.396454,52.522697,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1920: Antwerp, Belgium</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/be_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1920_Summer_Olympics">1920 Summer Games VII</a><br>Antwerp<br>Belgium<br>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>4.419999,51.220001,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1924: Paris, France</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/fr_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1924_Summer_Olympics">1924 Summer Games VIII</a><br>Paris<br>France<br>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>2.350966,48.856556,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1924: Chamonix, France</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/fr_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1924_Winter_Olympics">1924 Winter Games I</a><br>Chamonix-Mont-Blanc<br>France<br>]]></description>
+    <styleUrl>#style53</styleUrl>
+    <Point>
+      <coordinates>6.869786,45.925343,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1928: Amsterdam, Netherlands</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/nl_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1928_Summer_Olympics">1928 Summer Games IX</a><br>Amsterdam<br>Netherlands<br>]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>4.890950,52.373814,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1928: St. Moritz, Switzerland</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/ch_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1928_Winter_Olympics">1928 Winter Games II</a><br>St Moritz<br>Switzerland<br>]]></description>
+    <styleUrl>#style54</styleUrl>
+    <Point>
+      <coordinates>9.827956,46.494846,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1932: Los Angeles, USA</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/USA.gif"><br><a href="http://en.wikipedia.org/wiki/1932_Summer_Olympics">1932 Summer Games X</a><br>Los Angeles, CA<br>USA<br>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>-118.251343,34.055786,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1932: Lake Placid, USA</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/USA.gif"><br>1932 Winter Games III<br>Lake Placid, NY<br>USA<br>]]></description>
+    <styleUrl>#style41</styleUrl>
+    <Point>
+      <coordinates>-73.980278,44.279442,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1936: Berlin, Germany</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/de_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1936_Summer_Olympics">1936 Summer Games XI</a><br>Berlin<br>Germany<br>]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>13.419112,52.522903,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1936: Garmisch-Partenkirchen, Germany</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/de_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1932_Winter_Olympics">1936 Winter Games IV</a><br>Garmisch-Partenkirchen, gemeindefreies Gebiet<br>Germany<br>]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>10.989900,47.547138,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1940: Tokyo, Japan</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/jp_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1940_Summer_Olympics">1940 Summer Games XII</a><br>T?ky?<br>Japan<br>Moved to Helsinki, Finland as result of Sino-Japanese War.]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>139.781799,35.671803,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1940: Helsinki, Finland</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/fi_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1940_Summer_Olympics">1940 Summer Games XII</a><br>Helsinki<br>Finland<br>(Runner-up to Tokyo for 1940; Games were slated for Helsinki after the breakout of the Sino-Japanese war, but were cancelled due to the breakout of World War II.)<br>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>24.925919,60.175159,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1940: Sapporo, Japan</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/jp_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1940_Winter_Olympics">1940 Winter Games V</a><br>Sapporo<br>Japan<br>(Moved to St. Moritz, Switzerland after the outbreak of the Sino-Japanese War)<br>]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>141.320572,43.071648,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1940: St Moritz, Switzerland</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/ch_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1940_Winter_Olympics">1940 Winter Games V</a><br>St Moritz<br>Switzerland<br>(Runner-up to Sapporo, Japan, Games were slated to be held in St. Moritz after the outbreak of the Sino-Japanese war, but due to conflicts between the Swiss organization team and IOC, the games were moved to Garmisch-Partenkirchen, Germany.)<br>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>9.855079,46.494373,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1940: Garmisch-Partenkirchen, Germany</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/de_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1940_Winter_Olympics">1940 Winter Games V</a><br>Garmisch-Partenkirchen<br>Germany<br>(Moved here after problems with Sapporo and St Moritz. Cancelled due to outbreak of World War II.)<br>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>11.086230,47.492344,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1944: London, UK</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/uk_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1944_Summer_Olympics">1944 Summer Games XIII</a><br>London<br>UK<br>(Cancelled due to World War II.)<br>]]></description>
+    <styleUrl>#style48</styleUrl>
+    <Point>
+      <coordinates>-0.101624,51.507889,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1944: Cortina d&#39;Ampezzo, Italy</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/it_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1944_Winter_Olympics">1944 Winter Olympics V</a><br>Cortina d'Ampezzo BL<br>Italy<br>(Cancelled due to World War II)<br>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>12.091827,46.555084,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1948: London, UK</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/uk_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1948_Summer_Olympics">1948 Summer Olympics XIV</a><br>London<br>UK<br>]]></description>
+    <styleUrl>#style58</styleUrl>
+    <Point>
+      <coordinates>-0.121880,51.510880,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1948: St. Moritz, Switzerland</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/ch_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1948_Winter_Olympics">1948 Winter Games V</a><br>St Moritz<br>Switzerland<br>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>9.836197,46.488464,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1952: Helsinki, Finland</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/fi_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1952_Summer_Olympics">1952 Summer Games XV</a><br>Helsinki<br>Finland<br>]]></description>
+    <styleUrl>#style56</styleUrl>
+    <Point>
+      <coordinates>24.940001,60.169998,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1952: Oslo, Norway</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/no_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1952_Winter_Olympics">1952 Winter Games VI</a><br>Oslo<br>Norway<br>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>10.750000,59.910000,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1956: Melbourne, Australia</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/au_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1956_Summer_Olympics">1956 Summer Games XVI</a><br>Melbourne, VIC<br>Australia<br>(Equestrian events held in Stockholm, Sweden)<br>]]></description>
+    <styleUrl>#style42</styleUrl>
+    <Point>
+      <coordinates>144.963165,-37.814251,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1956: Stockholm, Sweden</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/se_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1956_Summer_Olympics">1956 Summer Games XVI</a><br>Stockholm<br>Sweden<br>(Equestrian events only)<br>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>18.069998,59.330002,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1956: Cortina d&#39;Ampezzo, Italy</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/it_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1956_Winter_Olympics">1956 Winter Games VII</a><br>Cortina d'Ampezzo BL<br>Italy<br>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>12.138922,46.537380,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1960: Rome, Italy</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/it_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1960_Summer_Olympics">1960 Summer Games XVII</a><br>Roma<br>Italy<br>]]></description>
+    <styleUrl>#style47</styleUrl>
+    <Point>
+      <coordinates>12.482322,41.895466,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1960: Squaw Valley, USA</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/USA.gif"><br><a href="http://en.wikipedia.org/wiki/1960_Winter_Olympics">1960 Winter Olympics VIII</a><br>Squaw Valley, CA<br>USA<br>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-120.220299,39.198872,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1964: Tokyo, Japan</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/jp_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1964_Summer_Olympics">1964 Summer Games XVIII</a><br>T?ky?<br>Japan<br>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>139.753983,35.675983,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1964: Innsbruck, Austria</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/at_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1964_Winter_Olympics">1964 Winter Games IX</a><br>Innsbruck<br>Austria<br>]]></description>
+    <styleUrl>#style38</styleUrl>
+    <Point>
+      <coordinates>11.395569,47.280396,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1968: Mexico City, Mexico</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/mx_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1968_Summer_Olympics">1968 Summer Games XIX</a><br>Mexico City<br>Mexico<br>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-99.139999,19.429998,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1968: Grenoble, France</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/fr_flag.gif"><br><a href="http://en.wikipedia.org/wiki/198_Winter_Olympics">1968 Winter Games X</a><br>Grenoble<br>France<br>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>5.731614,45.194260,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1972: Munich, Germany</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/de_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1972_Summer_Olympics">1972 Summer Games XX</a><br>München<br>Germany<br>]]></description>
+    <styleUrl>#style44</styleUrl>
+    <Point>
+      <coordinates>11.580213,48.139126,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1972: Sapporo, Japan</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/jp_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1972_Winter_Olympics">1972 Winter Games XI</a><br>Sapporo<br>Japan<br>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>141.339996,43.060001,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1976: Montreal, Canada</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/ca_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1976_Summer_Olympics">1976 Summer Games XXI</a><br>Montréal, QC<br>Canada<br>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>-73.675629,45.512363,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1976: Innsbruck, Austria</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/at_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1976_Winter_Olympics">1976 Winter Games XII</a><br>Innsbruck<br>Austria<br>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>11.409998,47.279999,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1980: Moscow, Russia</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/ru_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1980_Summer_Olympics">1980 Summer Games XXII</a><br>Moscow<br>Russia<br>]]></description>
+    <styleUrl>#style45</styleUrl>
+    <Point>
+      <coordinates>37.619999,55.750000,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1980: Lake Placid, USA</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/USA.gif"><br><a href="http://en.wikipedia.org/wiki/1980_Winter_Olympics">1980 Winter Games XIII</a><br>Lake Placid, NY<br>USA<br>]]></description>
+    <styleUrl>#style55</styleUrl>
+    <Point>
+      <coordinates>-73.986351,44.274986,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1984: Los Angeles, USA</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/USA.gif"><br><a href="http://en.wikipedia.org/wiki/1984_Summer_Olympics">1984 Summer Games XXIII</a><br>Los Angeles, CA<br>USA<br>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-118.242775,34.052223,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1984: Sarajevo, Yugoslavia</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/ba_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1984_Winter_Olympics">1984 Winter Games XIV</a><br>Sarajevo<br>Bosnia and Herzegovina<br>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>18.420639,43.857307,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1988: Seoul, South Korea</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/kr_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1988_Summer_Olympics">1988 Summer Games XXIV</a><br>Seoul<br>Korea<br>]]></description>
+    <styleUrl>#style49</styleUrl>
+    <Point>
+      <coordinates>126.989998,37.560001,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1988: Calgary, Canada</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/ca_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1988_Winter_Olympics">1988 Winter Games XV</a><br>Calgary, AB<br>Canada<br>]]></description>
+    <styleUrl>#style52</styleUrl>
+    <Point>
+      <coordinates>-114.080795,51.039875,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1992: Barcelona, Spain</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/es_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1992_Summer_Olympics">1992 Summer Games XXV</a><br>Barcelona<br>Spain<br>]]></description>
+    <styleUrl>#style46</styleUrl>
+    <Point>
+      <coordinates>2.169919,41.387917,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1992: Albertville, France</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/fr_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1992_Winter_Olympics">1992 Winter Games XVI</a><br>Albertville<br>France<br>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>6.391797,45.677654,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1994: Lillehammer, Norway</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/no_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1994_Winter_Olympics">1994 Winter Games XVII</a><br>Lillehammer<br>Norway<br>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>10.481840,61.120270,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1996: Atlanta, GA</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/USA.gif"><br><a href="http://en.wikipedia.org/wiki/1996_Summer_Olympics">1996 Summer Games XXVI</a><br>Atlanta, GA<br>USA]]></description>
+    <styleUrl>#style43</styleUrl>
+    <Point>
+      <coordinates>-84.388054,33.748886,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1998: Nagano, Japan</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/jp_flag.gif"><br><a href="http://en.wikipedia.org/wiki/1998_Winter_Olympics">1998 Winter Games XVIII</a><br>Nagano<br>Japan<br>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>138.179993,36.650002,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2000: Sydney, Australia</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/au_flag.gif"><br><a href="http://en.wikipedia.org/wiki/2000_Summer_Olympics">2000 Summer Games XXVII</a><br>Sydney, NSW<br>Australia<br>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>151.207108,-33.867138,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2002: Salt Lake City, USA</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/USA.gif"><br><a href="http://en.wikipedia.org/wiki/2002_Winter_Olympics">2002 Winter Games XIX</a><br>Salt Lake City, UT<br>USA<br>]]></description>
+    <styleUrl>#style57</styleUrl>
+    <Point>
+      <coordinates>-111.890274,40.760834,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2004: Athens, Greece</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/gr_flag.gif"><br><a href="http://en.wikipedia.org/wiki/2004_Summer_Olympics">2004 Summer Games XXVIII</a><br>Athens<br>Greece<br>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>23.729998,37.980000,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2006: Turin, Italy</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/it_flag.gif"><br><a href="http://en.wikipedia.org/wiki/2006_Winter_Olympics">2006 Winter Games XX</a><br>Torino<br>Italy<br>]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>7.686995,45.070248,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2008: Beijing, China</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/cn_flag.gif"><br><a href="http://en.wikipedia.org/wiki/2008_Summer_Olympics">2008 Summer Games XXIX</a><br>Beijing<br>China<br>]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>116.400002,39.930000,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2010: Vancouver, Canada</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/ca_flag.gif"><br><a href="http://en.wikipedia.org/wiki/2010_Winter_Olympics">2010 Winter Games XXI</a><br>Vancouver, BC<br>Canada<br>]]></description>
+    <styleUrl>#style51</styleUrl>
+    <Point>
+      <coordinates>-123.111931,49.250492,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2012: London, UK</name>
+    <description><![CDATA[<img src="http://www.google.com/images/flags/uk_flag.gif"><br><a href="http://en.wikipedia.org/wiki/2012_Summer_Olympics">2012 Summer Games XXX</a><br>London<br>UK<br>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-0.126197,51.500198,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
+

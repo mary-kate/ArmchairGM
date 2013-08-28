@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>This is a test from aanother site</title>
+<script type="text/javascript" src="http://fp029.sjc.wikia-inc.com/extensions/Prototype/prototype.js"></script>
+
+<script>
+var source_url = "http://fp016.sjc.wikia-inc.com/";
+var page_title = "";
+var edit_token = "";
+var edit_time = "";
+
+function get_page(){
+	page_title = $("page_name").value;
+	var url = source_url + "index.php?action=ajax";
+	var pars = 'rs=wfGetArticleJSON&rsargs[]=' + page_title;
+	
+	var myAjax = new Ajax.Request(
+		url, {
+			method: 'get', 
+			parameters: pars,
+			onSuccess:function(request){
+				if( request.responseText == "error" ){
+					alert("page doesn't exist...try again");
+					return;
+				}
+				//alert(request.responseText)
+				article = eval("(" + request.responseText + ")");
+				edit = "<div><a href='javascript:start_edit()'>edit</a></div>";
+				$("wiki-content").innerHTML = edit + article.html
+				
+			}
+	});
+}
+
+
+
+function do_edit(){
+	var url = source_url + "index.php?title=" + page_title + "&action=submit";
+	var pars = 'wpEdittime=' + edit_time + '&wpTextbox1=' + $("wiki_text").value + "&wpEditToken=" + edit_token;
+	var myAjax = new Ajax.Request(
+		url, {
+			method: 'post', 
+			parameters: pars,
+			onSuccess:function(request){
+				get_page();
+				
+			}
+	});
+}
+	
+function start_edit(){
+	var url = source_url + "index.php?action=ajax";
+	var pars = 'rs=wfGetEditJSON&rsargs[]=' + page_title;
+	
+	var myAjax = new Ajax.Request(
+		url, {
+			method: 'get', 
+			parameters: pars,
+			onSuccess:function(request){
+				edit_article = eval("(" + request.responseText + ")");
+				edit_token = edit_article.edittoken
+				edit_time = edit_article.last_edited
+				edit_box = "<textarea id=\"wiki_text\" rows=\"4\" cols=\"50\">" + edit_article.wikitext + "</textarea>";
+				edit_box += "<p>" + "<input type=\"button\" onclick=\"javascript:do_edit();\" value=\"save\">";
+				$("wiki-content").innerHTML = edit_box;
+				
+			}
+	});
+}
+</script>
+</head>
+<body>
+
+Get page <input type="text" id="page_name" name="page_name"  value="Dave test"> 
+
+<input type="button" onclick="javascript:get_page()" value="fo' sho'">
+<p>
+Below is the page
+<p>
+<div id="wiki-content">
+
+</div>
+</body>
+</html>

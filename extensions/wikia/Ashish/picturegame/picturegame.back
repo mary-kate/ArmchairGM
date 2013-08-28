@@ -1,0 +1,171 @@
+var img = new Image();
+img.src = "../../images/common/overlay.png";
+
+var img2 = new Image();
+img.src = "../../images/common/ajax-loader.gif";
+
+var cleanTitle = document.title;
+
+// flags an image set
+function flagImg(){
+	var ask = confirm("Are you sure you want to report these images?");
+	
+	if (ask){
+		new Ajax.Request('?title=Special:PictureGameHome&picGameAction=flagImage&key=' + $F('key') + '&id=' + $F('id') + '', {
+				onSuccess: function(t){	
+					$('serverMessages').innerHTML = '<strong>' + t.responseText + '</strong>';
+				}, 
+				onError: function(t){ $('serverMessages').innerHTML = '<strong>' + t.responseText + '</strong>' }
+		});
+	}
+}
+
+function doHover(divID){
+	if (divID=='imageOne') {
+		$(divID).setStyle({backgroundColor: '#4B9AF6'});
+	} else {
+		$(divID).setStyle({backgroundColor: '#FF1800'});
+	}
+	
+}
+
+function endHover(divID){
+	$(divID).setStyle({backgroundColor: ''});
+}
+
+function editPanel(){
+	document.location = '?title=Special:PictureGameHome&picGameAction=editPanel&id=' + $F('id');
+}
+
+function protectImages(){
+	var ask = confirm("Are you sure you want to protect these images?");
+	
+	if (ask){
+		new Ajax.Request('?title=Special:PictureGameHome&picGameAction=protectImages&key=' + Form.Element.getValue('key') + '&id=' + Form.Element.getValue('id'), {
+				onSuccess: function(t){	
+					$('serverMessages').innerHTML = '<strong>' + t.responseText + '</strong>';	
+				}
+		});
+	}
+}
+
+function castVote(picID){
+	
+	// pop up the lightbox
+	objLink = new Object();
+	objLink.href = "../../images/common/ajax-loader.gif"
+	objLink.title = "Loading...";
+	document.picGameVote.lastid.value = $F('id');
+	
+	$('backButton').show();
+	
+	showLightbox(objLink);
+	
+	new Ajax.Request('?title=Special:PictureGameHome&picGameAction=castVote', 
+		{method:'post',
+			postBody:'key=' + Form.Element.getValue('key') + '&id=' + Form.Element.getValue('id') + '&img=' + picID + '&nextid='+next_id, 
+			onSuccess:	
+			function(t){	
+				//alert(t.responseText)
+				var payload = eval('(' + t.responseText + ')');
+				
+				if(payload.status == 500){
+					setLightboxText('<b>There are no picture games left. Add your <a href="index.php?title=Special:PictureGameHome">own!</a></b>');
+					
+					$('vote-stats-text').innerHTML = '<h1>Previous Game (' + payload.totalVotes + ') </h1>';
+					$('one-vote-thumbnail').innerHTML = payload.voteOneURL;
+					$('one-vote-percent').innerHTML = payload.voteOnePercent + '%';
+					Element.setStyle('one-vote-width', {width: payload.voteOneWidth + 'px'});
+					
+					$('two-vote-thumbnail').innerHTML = payload.voteTwoURL;
+					$('two-vote-percent').innerHTML = payload.voteTwoPercent + '%';
+					Element.setStyle('two-vote-width', {width: payload.voteTwoWidth + 'px'});
+					
+					$('voteStats').show();
+					return;
+				}
+				// '
+				document.picGameVote.id.value = payload.imageID;
+				document.picGameVote.key.value = payload.key;
+				
+				document.title = payload.title + ' - ' + cleanTitle; 
+				
+				$('serverMessages').innerHTML = '';
+				
+				$('imgTitle').innerHTML = payload.title;
+				$('imgOneCaption').innerHTML = payload.imageOneCaption;
+				$('imgTwoCaption').innerHTML = payload.imageTwoCaption;
+				$('imageOne').innerHTML = payload.imageOne;
+				$('imageTwo').innerHTML = payload.imageTwo;
+				$('preload').innerHTML = payload.imageTwo_preload+payload.imageOne_preload;
+				
+				next_id = parseInt( payload.next_id );
+				
+				if(next_id == -1)
+					$('skipButton').hide();
+				else
+					$('skipButton').show();
+				
+				imageArr = $('imageOne').immediateDescendants();
+				Element.setStyle('imageOne');
+				
+				imageArr = $('imageTwo').immediateDescendants();
+				Element.setStyle('imageTwo', {width: ( imageArr[0].width + 10 ) + 'px'});
+				
+				Element.setStyle('imageTwo', {width: ( imageArr[0].width + 10 ) + 'px'});
+				
+				$('creditBox').innerHTML = '<h1>Submitted By</h1>'
+				+ '<div class=submitted-by-image>'
+				+ '<img src=images/avatars/'
+				+ payload.userAvatar 
+				+ ' style=\'border:1px solid #d7dee8;width:50px;height:50px;\'/>'
+				+ '</div>'	
+				+ '<div class=submitted-by-user>'
+				+ '<a href=\'index.php?title=User:'+payload.userName+'\'>' 
+				+ payload.userName 
+				+ '</a>'
+				+ '<ul>'
+				+ '<li>'
+				+ '<img src=\'images/common/voteIcon.gif\' border=\'0\'> '
+				+ payload.userVotes
+				+ '</li>'
+				+ '<li>'
+				+ '<img src=\'images/common/pencilIcon.gif\' border=\'0\'> '
+				+ payload.userEdits
+				+ '</li>'
+				+ '<li>'
+				+ '<img src=\'images/common/commentsIcon.gif\' border=\'0\'> '
+				+ payload.userComments
+				+ '</li>'
+				+ '</ul>'
+				+ '</div>'
+				+ '<div class=cleared></div>';
+				
+				$('vote-stats-text').innerHTML = '<h1>Previous Game (' + payload.totalVotes + ') </h1>';
+				$('one-vote-thumbnail').innerHTML = payload.voteOneURL;
+				$('one-vote-percent').innerHTML = payload.voteOnePercent + '%';
+				Element.setStyle('one-vote-width', {width: payload.voteOneWidth + 'px'});
+				
+				$('two-vote-thumbnail').innerHTML = payload.voteTwoURL;
+				$('two-vote-percent').innerHTML = payload.voteTwoPercent + '%';
+				Element.setStyle('two-vote-width', {width: payload.voteTwoWidth + 'px'});
+				
+				Effect.Appear('voteStats');
+				
+				imageArr = $('imageOne').immediateDescendants();
+				Element.setStyle('imageOne', {width: ( imageArr[0].width + 10 ) + 'px'});
+				
+				imageArr = $('imageTwo').immediateDescendants();
+				Element.setStyle('imageTwo', {width: ( imageArr[0].width + 10 ) + 'px'});
+				
+				var t = setTimeout("hideLightbox()", 1000);
+				
+			},
+			onFailure: 	
+			function(t) {
+				hideLightbox();
+				$('serverMessages').innerHTML = 'Something went wrong. Try and vote again.'; 
+			} 
+		});
+	
+}

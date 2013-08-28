@@ -1,0 +1,354 @@
+@import url("common.css");
+@import url("../monobook/main.css");
+
+body {
+	background:url('http://fp029.sjc.wikia-inc.com/images/halo/image-sprite.gif') no-repeat 0px -140px;
+	background-color:#93999E;
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	font-size:12px;
+}
+
+#header {
+	background:url('http://fp029.sjc.wikia-inc.com/images/halo/header-background.gif') repeat-x top left;
+	height:70px;
+}
+
+
+#logo {
+	background:url('http://fp029.sjc.wikia-inc.com/images/halo/image-sprite.gif') no-repeat 0px 0px;
+	width:500px;
+	height:25px;
+	position:absolute;
+	top:5px;
+	left:7px;
+}
+
+.rounded-button {
+	float:left;
+	background:url("http://fp029.sjc.wikia-inc.com/images/halo/rounded-button-right.gif") no-repeat right top;
+	margin:0px 3px 0px 0px;
+	padding:0px;
+}
+
+.rounded-button a {
+	text-decoration:none;
+	color:#fff;
+}
+
+.rounded-button span {
+	display:block;
+	float:left;
+	height:19px;
+	background:url("http://fp029.sjc.wikia-inc.com/images/halo/rounded-button-left.gif") no-repeat left top;
+	padding:4px 9px;
+	color:#fff;
+	text-decoration:none;
+	font-size:9px;
+	font-weight:600;
+	font-family:tahoma;	
+	text-transform:uppercase;
+}
+
+.rounded-button img {
+	vertical-align:middle;
+	margin:-2px 0px 0px 1px;
+}
+
+#top-buttons {
+	position:absolute;
+	top:35px;
+	left:7px;
+}
+
+#header-right {
+	float:right;
+	color:#fff;
+	padding:0px 0px 0px 2px;
+	margin:39px 10px 0px 0px;
+	font-weight:700;
+}
+
+
+a.login-logout {
+	margin:0px 0px 0px 5px;
+	color:#fff;
+	font-size:11px;
+	font-weight:bold;
+	letter-spacing:-.7px;
+	text-decoration:underline;
+	text-transform:uppercase;
+}
+
+.yellow-text {
+	color:#fec423;
+}
+
+#top-ad {
+	background:url('http://fp029.sjc.wikia-inc.com/images/halo/top-ad.gif') no-repeat top left;
+	height:90px;
+	width:727px;
+	position:absolute;
+	top:75px;
+	left:272px;
+}
+
+#side-ad {
+	background:url('http://fp029.sjc.wikia-inc.com/images/halo/side-ad.gif') no-repeat top left;
+	height:600px;
+	width:160px;
+	margin:10px 0px 0px 25px;
+}
+
+#body-container {
+	padding:105px 0px 0px 220px;
+	margin:0px 10px 0px 0px;
+}
+
+#nav-bar {
+	background:url('http://fp029.sjc.wikia-inc.com/images/halo/nav-bar-background.gif') repeat-x top left;
+	height:30px;
+}
+
+#nav-bar-links-container p {
+	position:relative;
+	background:url('http://fp029.sjc.wikia-inc.com/images/halo/nav-bar-separator.gif') no-repeat top right;
+	float:left;
+	top:1px;
+	margin:0px;
+	height:30px;
+	padding:0px 14px 0px 14px;
+	font:700 12px tahoma;
+}
+
+#nav-bar-links-container p span {
+	display:block;
+	padding:7px 0px 0px 0px;
+}
+
+p.left-fix {
+	margin-left:-14px !important;
+}
+
+#nav-bar-links-container a {
+	color:#000;
+}
+
+#curve {
+	float:left;
+	background:url('http://fp029.sjc.wikia-inc.com/images/halo/image-sprite.gif') no-repeat 0px -103px;
+	height:30px;
+	width:44px;
+}
+
+#search {
+	float:right;
+	background:url('http://fp029.sjc.wikia-inc.com/images/halo/image-sprite.gif') no-repeat -49px -103px;
+	height:30px;
+	width:242px;
+}
+
+#search-submit {
+	float:left;
+	padding:2px 0px 0px 45px;
+	padding:5px 0px 0px 45px;
+	cursor:pointer;
+}
+
+#search-submit input {
+	border:1px solid #fec423;
+	color:#999;
+	padding:1px 3px;
+	height:16px;
+	font-size:12px;	
+	width:165px;
+}
+
+#search-button {
+	float:left;
+	margin:0px 0px 0px -6px;
+	padding:4px 0px 0px 0px;
+	cursor:pointer;
+}
+
+#side-bar {
+	position:absolute;
+	top:215px;
+	left:10px;
+}
+
+#controls-container {
+	width:210px;
+}
+
+#cc-top {
+	background:url('http://fp029.sjc.wikia-inc.com/images/halo/image-sprite.gif') no-repeat 0px -64px;
+	height:23px;
+	padding:9px 0px 0px 10px;
+	font-weight:bold;
+}
+
+#cc-middle {
+	background:url('http://fp029.sjc.wikia-inc.com/images/halo/cc-middle.gif') repeat-y top right;
+	background-color:#f1f1f1;
+	padding:7px 0px 5px 24px;
+	border-left:2px solid #ccc;
+}
+
+#cc-middle span, #cc-bottom span {
+	display:block;
+	padding:0px 0px 4px 24px;
+	margin:0px 0px 0px 0px;
+	height:16px;
+	font-size:13px;
+}
+
+#cc-bottom a {text-decoration:none;}
+span.edit {background:url("http://fp029.sjc.wikia-inc.com/images/halo/icon-sprite.gif") no-repeat 0px -20px;}
+span.history {background:url("http://fp029.sjc.wikia-inc.com/images/halo/icon-sprite.gif") no-repeat 0px -40px;}
+span.watch {background:url("http://fp029.sjc.wikia-inc.com/images/halo/icon-sprite.gif") no-repeat 0px -60px;}
+span.move {background:url("http://fp029.sjc.wikia-inc.com/images/halo/icon-sprite.gif") no-repeat 0px -140px;}
+span.protect {background:url("http://fp029.sjc.wikia-inc.com/images/halo/icon-sprite.gif") no-repeat 0px -80px;}
+span.delete {background:url("http://fp029.sjc.wikia-inc.com/images/halo/icon-sprite.gif") no-repeat 0px -100px;}
+span.discussion {background:url("http://fp029.sjc.wikia-inc.com/images/halo/icon-sprite.gif") no-repeat 0px -120px;}
+
+#article-icon {
+	background:url('http://fp029.sjc.wikia-inc.com/images/halo/icon-sprite.gif') no-repeat 0px 0px;
+	padding:2px 0px 2px 24px;
+	margin:0px 0px 0px 0px;
+	height:14px;
+	font-size:13px;
+}
+
+#cc-bottom {
+	border-top:1px solid #ccc;
+	background:url('http://fp029.sjc.wikia-inc.com/images/halo/image-sprite.gif') no-repeat 0px -28px;
+	height:26px;
+	padding:7px 0px 0px 10px;
+	font-weight:bold;
+}
+
+.icon-text {
+	float:left;
+	margin:2px 0px 0px 3px;
+}
+
+#article-container {
+	background-color:#fff;
+	width:100%;
+	padding:0px 0px 0px 0px;
+	min-height:400px;
+}
+
+#article-text {
+	padding:5px 10px;
+}
+
+#article-footer {
+	background-color:#f1f1f1;
+	border-bottom:1px solid #ccc;
+	padding:10px 0px;
+	font-family:Tahoma;
+}
+
+#article-footer h2 {
+	margin:0 !important;
+	padding:0px 0px 0px 0px !important;
+	font-weight:normal !important;
+	background:none !important;
+	border:none !important;
+}
+
+#article-footer b {
+	font-weight:700;
+}
+
+
+#footer-contribute {
+	float:left;
+	margin:0px 0px;
+	padding:0px 10px;
+	border-right:1px solid #ccc;
+	width:230px;
+	height:180px;
+}
+
+#footer-contribute span {
+	display:block;
+	padding:0px 0px 2px 24px;
+	margin:1px 0px 5px 0px;
+	height:16px;
+	font-size:12px;
+}
+
+#footer-contribute p {
+	margin:0;
+	padding:5px 0px 10px 0px;
+	font-size:10px;
+}
+
+#contributors-and-share {
+	float:left;
+	margin:0px 0px;
+	padding:0px 20px;
+}
+
+#contributors-and-share p {
+	margin:0;
+	padding:5px 0px 8px 0px;
+	font-size:10px;
+}
+
+#contributors-avatars {
+	padding:0px 0px 10px 0px;
+}
+
+#contributors-avatars img {
+	border:1px solid #ccc;
+	padding:2px;
+	background-color:#fff;
+}
+
+#contributors-and-share span {
+	float:left;
+	display:block;
+	padding:2px 0px 2px 22px;
+	margin:0px 10px 0px 0px;
+	height:14px;
+	font-size:10px;
+}
+
+span.email {background:url("http://fp029.sjc.wikia-inc.com/images/halo/icon-sprite.gif") no-repeat 0px -160px;}
+span.delicious {background:url("http://fp029.sjc.wikia-inc.com/images/halo/icon-sprite.gif") no-repeat 0px -180px;}
+span.stumbleupon {background:url("http://fp029.sjc.wikia-inc.com/images/halo/icon-sprite.gif") no-repeat 0px -200px;}
+span.digg {background:url("http://fp029.sjc.wikia-inc.com/images/halo/icon-sprite.gif") no-repeat 0px -220px;}
+
+table#allmessagestable {
+	font-size:10px;
+}
+
+.cleared {
+	clear:both;
+}
+
+.drop-down-container {
+	position:absolute;
+	background:url('http://fp029.sjc.wikia-inc.com/images/halo/drop-down-fringe.gif') repeat-x -10px top;
+	top:57px;
+	background-color:#425631;
+	left:10px;
+	width:250px;
+}
+
+.drop-down-background {
+	color:#fff;
+	font-size:12px;
+	padding:15px 10px 12px 10px;
+}
+
+.drop-down-background p {
+	float:left;
+	padding:0;
+	margin:0px 15px 0px 0px !important;
+}

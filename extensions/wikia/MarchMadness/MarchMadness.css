@@ -1,0 +1,580 @@
+#march-madness {
+	min-height: 275px;
+}
+
+.picks-table {
+	margin-top: -10px;
+	padding-top: 10px
+}
+
+table div {
+	border:1px solid #dcdcdc;
+	margin:0px 15px 7px 0px;
+	width:115px;
+	padding:4px;
+	font-size:10px;
+	font-weight:bold;
+	cursor: pointer;
+}
+
+.started {
+	cursor: default !important;
+}
+
+.madness-points {
+	margin:5px 0px;
+	padding:5px 0px;
+	color:orange;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.pick-button-on {
+	background-color:#FFFCA9;
+}
+
+.pick-button-off {
+	background-color:#fff;
+}
+
+.correct-pick {
+	color: green;
+}
+
+.incorrect-pick {
+	color: red;
+}
+
+.incorrect-pick-forward {
+	color: #ffaaaa;
+}
+
+.champ {
+	border: solid 1px;
+	margin: 1px;
+	padding: 1px;
+	width: 125px;
+	cursor: pointer;
+}
+
+.bracket-button-off {
+	background-color:#68BD46;
+	color:#fff;
+	font-weight:bold;
+	margin: 0px 5px 0px 0px;
+	padding: 5px;
+	width: 136px;
+	cursor: pointer;
+	text-align:center;
+	float: left;
+}
+
+.bracket-button-on {
+	background-color:#466C2C;
+	color: #fff;
+	font-weight:bold;
+	margin: 0px 5px 0px 0px;
+	padding: 5px;
+	width: 136px;
+	text-align:center;
+	float: left;
+}
+
+#complete-check {
+	float:left;
+}
+/*
+#submit-button {
+	border: solid 1px black;
+	background-color:#aaaaaa;
+	color: white;
+	margin: 1px;
+	padding: 1px;
+	width: 150px;
+	cursor: pointer;
+}
+*/
+#march-madness {
+	margin:0px 0px 0px 0px;
+	/*height:500px;*/
+}
+
+/**Create a Tournament**/
+.madness-title {
+	color:#333;
+	font-size:14px;
+	font-weight:bold;
+	margin:0px 0px 8px 0px;
+}
+
+.madness-input {
+	margin:0px 0px 8px 0px;
+}
+
+.madness-input textarea {
+	width:300px;
+	height:75px;
+}
+
+.madness-button {
+	margin:10px 0px 0px 0px;
+}
+
+.madness-message {
+	color:#777;
+	margin:0px 0px 10px 0px;
+}
+
+/**Group Invite**/
+.group-invite-list a {
+	display:block;
+	font-weight:bold;
+	margin:0px 0px 2px 0px;
+}
+
+.madness-invite-container {
+	margin:10px 0px 15px 0px;
+}
+
+.madness-invite-friends {
+	float: left;
+	margin: 0px 25px 15px 0px;
+}
+
+.madness-invite-emails {
+	float: left;
+	margin: 0px 25px 15px 0px;
+}
+
+.madness-invite-buttons {
+	float: left;
+	margin: 0px 25px 15px 0px;
+}
+
+
+.madness-current-members {
+	float:right;
+	width:200px;
+	padding:10px;
+	background-color:#F2F4F7;
+	border:1px solid #DCDCDC;
+}
+
+.madness-current-members h2 {
+	font-size:14px;
+	letter-spacing:-1px;
+	font-weight:bold;
+	margin:0px 0px 10px 0px;
+}
+
+
+.madness-current-members a {
+	display:block;
+	margin:0px 0px 4px 0px;
+}
+
+.standings-entryname {
+	float: left;
+	width: 250px;
+}
+
+.standings-points {
+	float: left;
+	width: 50px;
+}
+
+.header {
+	font-weight: bold;
+}
+
+.madness-bracket-info {
+	
+	width:200px;
+	padding:10px;
+	margin-bottom: 15px;
+	background-color:#F2F4F7;
+	border:1px solid #DCDCDC;
+	
+	/*
+	float:right;
+	position: absolute;
+	top: 350px;
+	left:905px;
+	*/
+	
+	/*right:150px;*/
+	
+}
+
+.madness-bracket-info h2 {
+	font-size:14px;
+	letter-spacing:-1px;
+	font-weight:bold;
+	margin:0px 0px 10px 0px;
+}
+
+
+.madness-bracket-info a {
+	display:block;
+	margin:0px 0px 4px 0px;
+}
+.silliness-container {
+	width:975px;
+}
+.silliness-left {
+	float: left;
+}
+.silliness-right {
+	/*width: 250px;*/
+	float: right;
+}
+
+.silliness-right-wide {
+	float: right;
+	position: absolute;
+	top: 300px;
+	left:905px;
+}
+
+.bracket-left {
+}
+.bracket-right-column {
+	width: 250px;
+}
+
+.has-info {
+	
+}
+
+.mini-standings-line {
+	height:17px;
+}
+.mini-standings-entry {
+	width: 165px;
+	float: left;
+}
+.mini-standings-entry a {
+	display: inline !important;
+}
+
+.mini-standings-points {
+	text-align: right;
+	width: 25px;
+	float: left;
+}
+
+.mini-standings-desc {
+	width: 190px;
+	float: left;
+}
+.mini-standings-desc a {
+	display: inline !important;
+}
+
+.group-list-tname {
+	width: 690px;
+	font-weight: bold;
+	border-width:1px 1px 0px 1px;
+	border-style: solid;
+	border-color: #DCDCDC;
+	padding:0px 2px 0px 5px;
+	font-size:16px;
+	line-height:20px;
+
+}
+
+.group-list-group {
+	padding:2px 2px 2px 5px;
+	background-color:#F2F4F7;
+	border-width:1px 1px 0px 1px;
+	border-style: solid;
+	border-color: #DCDCDC;
+	line-height: 20px;
+	width: 690px;
+}
+
+.group-list-header {
+	padding:2px 2px 2px 5px;
+	/*background-color:#F2F4F7;*/
+	border-width:1px 1px 0px 1px;
+	border-style: solid;
+	border-color: #DCDCDC;	line-height: 15px;
+	width: 690px;
+}
+
+.group-list-bottomfix {
+	border-width: 1px !important;
+}
+
+.group-list-link {
+	float: left;
+	width: 220px;
+}
+
+.group-list-entry {
+	float: left;
+	width: 220px;
+}
+
+.group-list-actionset {
+	float: left;
+}
+
+.group-standings-rank {
+	float: left;
+	width: 20px;
+}
+
+.group-list-action {
+	float: left;
+	/*width: 50px;*/
+	padding: 0px 0px 0px 3px;
+}
+
+.group-standings-points {
+	float: left;
+	width: 60px;
+	padding: 0px 0px 0px 3px;
+}
+
+.group-standings-link {
+	float: left;
+	width: 250px;
+}
+
+.group-standings-user {
+	float: left;
+	width: 175px;
+}
+
+.group-standings-header {
+	padding:2px 2px 2px 5px;
+	/*background-color:#F2F4F7;*/
+	border-width:1px 1px 0px 1px;
+	border-style: solid;
+	border-color: #DCDCDC;	
+	line-height: 15px;
+	width: 600px;
+}
+
+.group-standings-group {
+	padding:2px 2px 2px 5px;
+	background-color:#F2F4F7;
+	border-width:1px 1px 0px 1px;
+	border-style: solid;
+	border-color: #DCDCDC;
+	line-height: 20px;
+	width: 600px;
+}
+
+.madness-nav-link {
+	font-weight: bold;
+	padding: 0px 0px 20px 0px;
+}
+
+.madness-nav-link a {
+	text-decoration:none;
+}
+
+.madness-group-desc {
+	margin: -5px 0px 10px 0px;
+	padding: 1px 0px 1px 0px;
+}
+
+.madness-bracket-actions {
+	margin: -5px 0px 5px 0px;
+	padding: 1px 0px 1px 0px;
+}
+
+.submit-picks {
+	cursor: pointer;
+	background-color: orange !important;
+}
+
+
+.search-result-item {
+	padding:2px 2px 2px 5px;
+	background-color:#FAFCFE;
+	border-width:1px 1px 0px 1px;
+	border-style: solid;
+	border-color: #DCDCDC;
+	line-height: 20px;
+	width: 690px;
+}
+
+.search-result-header {
+	padding:2px 2px 2px 5px;
+	/*background-color:#F2F4F7;*/
+	border-width:1px 1px 0px 1px;
+	border-style: solid;
+	border-color: #DCDCDC;	line-height: 15px;
+	width: 690px;
+}
+
+.search-result-link {
+	width: 170px;
+	float: left;
+}
+
+.search-result-members {
+	width: 60px;
+	float: left;
+	text-align: center;
+}
+
+.search-result-creator {
+	width: 125px;
+	float: left;
+}
+
+.search-result-type {
+	width: 50px;
+	float: left;
+}
+
+.search-result-description {
+	width: 280px;
+	float: left;
+}
+
+.search-result-bottomfix {
+	border-width: 1px !important;
+}
+
+.madness-group-points-text {
+	color:#888;
+	padding:0px 0px 12px 0px;
+}
+
+.blog-container {
+	padding:0px 0px 10px 0px;
+	margin:0px 0px 10px 0px;
+	border-bottom:1px solid #dcdcdc;
+}
+
+
+.blog-container h2 {
+	margin:0px 0px 8px 0px !important;
+	font-size:16px;
+	letter-spacing:-1px;
+	color:#333;
+}
+
+/**Ad Unit**/
+.bracket-ad {
+	margin:10px 0px 0px 0px;
+	text-align:center;
+}
+
+.bracket-ad a {
+	text-align:center;
+}
+
+/**Casual Game**/
+.game-unit-container {
+	padding:0px 0px 10px 0px;
+	margin:0px 0px 10px 0px;
+	/*border-bottom:1px solid #dcdcdc;*/
+	overflow:hidden;
+}
+
+
+.game-unit-container h2 {
+	margin:0px 0px 8px 0px !important;
+	font-size:16px;
+	letter-spacing:-1px;
+	color:#333;
+}
+
+.poll-unit-title {
+	font-size:12px;
+	line-height:13px;
+	font-weight:bold;
+	color:#777;
+	margin:0px 0px 8px 0px;
+}
+
+.poll-unit-choices a {
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+	display:block;
+}
+
+.poll-unit-image {
+	margin:0px 0px 8px 0px;
+}
+
+.poll-unit-image img {
+	padding:3px;
+	background-color:#fff;
+	border:1px solid #dcdcdc;
+}
+
+.poll-unit-choices input {
+	margin:0px 5px 0px 0px;
+}
+
+.quiz-unit-image {
+	margin:8px 0px 0px 0px;
+}
+
+.quiz-unit-image img {
+	padding:3px;
+	background-color:#fff;
+	border:1px solid #dcdcdc;
+}
+
+.quiz-unit-title a {
+	font-size:13px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.pg-unit-title {
+	font-size:12px;
+	line-height:13px;
+	font-weight:bold;
+	color:#777;
+	margin:0px 0px 8px 0px;
+}
+
+.pg-unit-pictures img {
+	float:left;
+	background-color:#fff;
+	border:1px solid #dcdcdc;
+	padding:3px;
+	margin:0px 3px 0px 0px;
+}
+
+.pickem-unit-game {
+	/*border-bottom:1px solid #dcdcdc;*/
+	padding:8px 0px;
+}
+
+.pickem-unit-date {
+	font-weight:bold;
+}
+
+.pickem-unit-visitor, .pickem-unit-home {
+	margin:5px 0px 0px 0px;
+	cursor:pointer;
+}
+
+.pickem-unit-visitor img, .pickem-unit-home img{
+	vertical-align:middle;
+	border:1px solid #dcdcdc;
+	margin:0px 5px 0px 0px;
+}
+
+.pickem-unit-nogame {
+	font-weight:bold;
+	color: #FF0000;
+}
+
+.madness-group-update {
+	margin-top: 15px;
+	padding-top: 15px;
+	width: 250px;
+	border-top: 1px solid #dcdcdc;
+}

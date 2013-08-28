@@ -1,0 +1,172 @@
+.loading-message {
+	padding:3px;
+	color:#fff;
+	background-color:#ff0000;
+	width:56px;
+	margin:-10px 0px 20px 0px;
+}
+
+.youtube-results {
+	width:690px;
+}
+
+.youtube-video-container {
+	min-height:175px;
+	padding:0px 0px 14px 0px;
+	margin:0px 0px 15px 0px;
+	border-bottom:1px solid #dcdcdc;
+}
+
+.no-border {
+	border-bottom:none;
+	margin:0px 0px 5px 0px;
+}
+
+.youtube-checkbox {
+	float:left;
+	margin:0px 20px 0px 0px;
+}
+
+.youtube-video {
+	margin:0px 20px 0px 0px;
+	float:left;
+}
+
+.youtube-video-info {
+	float:left;
+}
+
+.youtube-video-container img {
+	padding:3px;
+	border:1px solid #dcdcdc;
+	background-color:#ffffff;
+}
+
+.selected-videos {
+	float:right;
+}
+
+.import-left-content {
+	float:left;
+}
+
+.selected-videos {
+	width:180px;
+	background-color:#F2F4F7;
+	border:1px solid #D7DEE8;
+	min-height:120px;
+	padding:5px;
+	
+}
+
+.selected-video-container img {
+	padding:3px;
+	background-color:#ffffff;
+	border:1px solid #dcdcdc;
+	margin:0px 0px 7px 0px;
+}
+
+.video-options {
+	padding:0px 0px 15px 0px;
+}
+
+.video-options-button {
+	float:left;
+	margin:0px 10px 0px 0px;
+	padding:10px;
+	background-color:#FFFCA9;
+	border:1px solid #FDC745;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.video-options-button a, .video-options-button a:visited {
+	text-decoration:none;
+	color:#fff;
+}
+
+.video-import-navigation {
+	font-weight:bold;
+	padding:0px 0px 5px 0px;
+}
+
+.video-import-navigation a {
+	margin:0px 10px 0px 0px;
+}
+
+.import-subtitle {
+	color:#333333;
+	font-size:14px;
+	font-weight:bold;
+	margin:0px 0px 10px 0px;
+}
+
+.import-search {
+	background-color:#F2F4F7;
+	border:1px solid #D7DEE8;
+	margin:0px 0px 30px 0px;
+	width:690px;
+}
+
+.import-search-padding {
+	padding:5px;
+	color:#333333;
+}
+
+.selected-videos-title {
+	color:#333333;
+	font-weight:bold;
+	font-size:14px;
+	margin:0px 0px 10px 0px;
+}
+
+.selected-videos-button {
+	margin:0px 0px 10px 0px;
+}
+
+#submit-instructions{
+	font-size:14px;
+	color:#666666;
+}
+
+/*Lightbox*/
+
+#lightbox {
+	display:none;
+	padding:10px;
+}
+#lightbox img {
+	background-color:transparent;
+	border:medium none;
+	clear:both;
+	display:none;
+}
+
+#lightboxText {
+	color:white;
+	width:auto;
+}
+
+#overlay img {
+	border:medium none;
+}
+		
+#overlay{ 
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+	/* background-image: url(overlay.png); */
+	background-color: black;
+	filter: alpha(opacity=80);
+	opacity: .8;
+}
+
+/* * html #overlay{
+	background-image: url(blank.gif);
+	background-color: #000;
+	background-color: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="overlay.png", sizingMethod="scale");
+}*/

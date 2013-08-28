@@ -1,0 +1,49 @@
+.pickgame-results-container {
+	margin:0px 0px 0px 0px;
+}
+
+.pickgame-results-data {
+	width:600px;
+	margin:0px 10px 10px 0px;
+	float: left;
+}
+
+.pickgame-results-wonlost {
+	background-color:#F2F4F7;
+	border:1px solid #D7DEE8;
+	margin:0px 0px 25px;
+	padding:10px;
+	width:500px;
+}
+
+.pickgame-results-navigation {
+	margin:0px 0px 15px 0px;
+}
+
+.pickgame-results-navigation a {
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.pickgame-results-row {
+	margin:0px 0px 10px 0px;
+	padding:0px 0px 10px 0px;
+	border-bottom:1px solid #dcdcdc;
+	width:500px;
+}
+
+.pickgame-results-row p {
+	float:left;
+	margin:0px 10px 0px 0px !important;
+}
+
+.pickgame-results-wonlost h2 {
+	font-size:16px;
+	font-weight:bold;
+	color:#333333;
+	margin:0px 0px 10px 0px;
+}
+
+.pickgame-results-wonlost p {
+	margin:0px 0px 3px 0px !important;
+}

@@ -1,0 +1,312 @@
+<html><head><title>Search Results Page</title>
+<script src="http://alpha.search.wikia.com/scripts/prototype.js"></script>
+<script>
+
+var q = ""; // global of last run query
+
+function comma(number) {
+	
+	number = '' + number;
+	
+	if (number.length > 3) {	
+		var mod = number.length % 3;
+		var output = (mod > 0 ? (number.substring(0,mod)) : '');
+			
+		for (i=0 ; i < Math.floor(number.length / 3); i++) {
+			if ((mod == 0) && (i == 0)) {
+				output += number.substring(mod+ 3 * i, mod + 3 * i + 3);
+			} else {
+				output+= ',' + number.substring(mod + 3 * i, mod + 3 * i + 3);
+			}
+		}
+	
+	return (output);
+	
+	}
+	
+	else return number;
+}
+
+function srfetch(query, start)
+{
+	q = query;
+	if(q == ""){ return; }
+	document.location.hash = "#"+q;
+
+	// get results
+	var s = document.createElement('script');
+	s.src = "http://search.isc.swlabs.org/nutchsearch?query="+ q +"&hitsPerSite=2&lang=en&hitsPerPage=10&type=json&start=" + start;
+	document.getElementsByTagName('head')[0].appendChild(s);
+
+	// also get any mini article
+        var s = document.createElement('script');
+        s.src = "http://search.wikia.com/index.php?action=ajax&rs=wfGetArticleJSON&rsargs%5B%5D=Mini:" + q;
+        document.getElementsByTagName('head')[0].appendChild(s);
+
+	// also get any people
+        var s = document.createElement('script');
+        s.src = "http://alpha.search.wikia.com:8983/solr/select/?start=0&row=20&wt=json&json.wrf=processPeople&indent=true&q=" + q;
+        document.getElementsByTagName('head')[0].appendChild(s);
+}
+
+function hasher()
+{
+	if(document.location.hash == "#"+q)
+	{
+		return;
+	}
+	$("sr-results").innerHTML = "";
+	srfetch(document.location.hash.substr(1),0);
+}
+window.setInterval("hasher()",500);
+
+function search(t)
+{
+	$("sr-results").innerHTML = "";
+	srfetch($("q").value,0);
+ 	if(e) e.returnValue = false;
+	return false;
+}
+
+function sform(e)
+{
+	$("sr-results").innerHTML = "";
+	srfetch($("q").value,0);
+	if(e) e.returnValue = false;
+	return false;
+}
+
+function smod(e)
+{
+	$("sr-results").innerHTML += "Loading more results for '"+$("mq").value;
+	srfetch($("mq").value,0);
+	if(e) e.returnValue = false;
+	return false;
+}
+
+// break out results since we accidentially (and temporarily) overloaded this function
+function processJSON(j)
+{
+	if(j)
+	{
+		if(j.search)
+		{
+			processResult(j.search);
+		}else if(j.html){
+			processMini(j);
+		}
+	}else{
+		// only mini article so far doesn't return anything
+				$("sr-mini-tr").innerHTML = '';
+				$("sr-mini-controls").innerHTML = "";
+                $("sr-mini-content").innerHTML = 'We do not have a mini article about "'+q+'".  Improve the search results for everyone by <a href="http://search.wikia.com/index.php?title=Mini:'+q+'&action=edit">starting</a> this article!';
+	}
+}
+
+function processPeople(r)
+{
+	var docs = r.response.docs;
+	var p = $("sr-people-content");
+	
+	p.innerHTML = '';
+	
+	if (docs.length != 0) {
+		for(var i=0; i < docs.length; i++)
+		{
+			
+			if (docs[i].defaultPhotoSet) {
+				p.innerHTML += '<a href="http://alpha.search.wikia.com/profile/profile.html?vuid='+docs[i].userId+'"><img src="http://alpha.search.wikia.com/photos/users/'+docs[i].userId+'-'+docs[i].defaultPhotoSet+'m.jpg" alt="" border="0"></a>';
+			} else {
+				p.innerHTML += '<a href="http://alpha.search.wikia.com/profile/profile.html?vuid='+docs[i].userId+'"><img src="http://alpha.search.wikia.com/images/nophotom.png" border="0" alt=""/></a>';
+			}
+		}
+	} else {
+		p.innerHTML += '<div class="sr-people-none"><a href="http://alpha.search.wikia.com/profile/addpersonal.html">List yourself here</a></div>';
+	}
+	
+}
+
+function processResult(search)
+{
+	var sr = $("sr-results");
+	$("q").value = search.query;
+	$("query").innerHTML = search.query;
+	$("result-q").innerHTML = search.query;
+	$("discuss-result-link").innerHTML = '(<a href="http://search.wikia.com/wiki/Mini_talk:'+search.query+'">discuss these results</a>)';
+	$("mini-title").innerHTML = search.query;
+	
+	if(search.numberOfHits == 0)
+	{
+		$("count").innerHTML = ":(";
+		$("span").innerHTML = "0";
+		$("sr-bottom").hide();
+		return;
+	}
+	
+	// update/show fields on results screen
+	$("sr-bottom").show();
+	$("mq").value = search.query;
+	$("count").innerHTML = comma(search.numberOfHits);
+	$("span").innerHTML = (search.numberOfHits > 9)?"1-10":"1-"+search.numberOfHits+" ";
+	var last1="";
+	var rehost = /http:\/\/([^\/]+)/i;
+	for (var i=0;i < search.documents.length; i++)
+	{
+		var doc = search.documents[i];
+		var url = new String(doc.fields.url);
+		var host = url.match(rehost);
+		if(doc.summary == "") { doc.summary = "..."; }
+		if(doc.fields.title == "") {doc.fields.title = search.query;}
+		var htm = "";
+		if(host[0] == last1) { htm += '<blockquote>'; }
+		htm += '<div class="result-item">';
+		htm += '<div class="result-item-title"><a href="'+doc.fields.url+'">'+doc.fields.title+'</a></div>';
+		htm += '<div class="result-item-blurb">'+doc.summary+'</div>';
+		htm += '<div class="result-item-full-url"> ';
+		htm += doc.fields.url+' - ';
+		htm += '<span class="result-item-sub-links"><a href="http://search.isc.swlabs.org/cached.jsp?idx='+doc.indexNo+'&id='+doc.indexDocumentNo+'&query='+search.query+'">Cached</a> - ';
+		htm += '<a href="http://search.isc.swlabs.org/explain.jsp?idx='+doc.indexNo+'&id='+doc.indexDocumentNo+'&query='+search.query+'">'+boost(doc.fields.boost)+'</a></span> ';
+		htm += '</div>';
+		htm += '</div>';
+		if(host[0] == last1) { htm += '</blockquote>'; }
+		sr.innerHTML += htm;
+		last1 = host[0]; // for next result indentation
+	}
+	if(search.end < search.numberOfHits)
+	{
+		sr.innerHTML += '<div class="sr-more-results"><div class="sr-more-results-top"><div class="sr-more-results-tl"></div><div class="sr-more-results-tr"></div></div><div class="sr-more-results-content"><a href="javascript:srfetch(q,'+(search.end+1)+');void(0)">Results '+(search.end+1)+' to '+(search.end+10)+'</a></div><div class="sr-more-results-bottom"><div class="sr-more-results-bl"></div><div class="sr-more-results-br"></div></div></div>';
+	}
+}
+
+function processMini(j)
+{
+	$("sr-mini-content").innerHTML = j.html;
+	$("sr-mini-controls").innerHTML = "";
+	
+	$("sr-mini-tr").innerHTML = '<img src="http://alpha.search.wikia.com/aaron/images/edit.gif" alt="" border="0"/> <a href="http://search.wikia.com/index.php?title=Mini:'+q+'&action=edit">Edit</a>';
+	
+	if (j.html!="") {
+		$("sr-mini-controls").innerHTML = '';
+		$("sr-mini-controls").innerHTML += '<span id="sr-mini-toggle-button"><a href="javascript:toggleMini()">Expand</a></span> - ';
+		$("sr-mini-controls").innerHTML += '<a href="http://search.wikia.com/index.php?title=Mini:'+q+'&action=history">History</a> - <a href="http://search.wikia.com/index.php?title=Mini:'+q+'">Full Article</a>';
+	}
+	
+}
+
+function boost(amount)
+{
+    amount -= 0;
+    amount = (Math.round(amount*100))/100;
+    return (amount == Math.floor(amount)) ? amount + '.00' : (  (amount*10 == Math.floor(amount*10)) ? amount + '0' : amount);
+}
+
+function toggleMini() {
+	
+	
+	
+	
+	if ($("sr-mini-content").hasClassName("collapsed")) {
+	
+		$("sr-mini-content").removeClassName("collapsed");
+		$("sr-mini-content").addClassName("expanded");
+		$("sr-mini-toggle-button").innerHTML = '<a href="javascript:toggleMini()">Collapse</a>';
+	
+	} else {
+	
+		$("sr-mini-content").removeClassName("expanded");
+		$("sr-mini-content").addClassName("collapsed");
+		$("sr-mini-toggle-button").innerHTML = '<a href="javascript:toggleMini()">Expand</a>';
+		
+	}
+	
+}
+
+</script>
+	
+		
+		<link rel="stylesheet" href="http://alpha.search.wikia.com/aaron/search.css"><!--[if ie]>
+			<link rel="stylesheet" href="http://alpha.search.wikia.com/aaron/search_ie.css">
+		<![endif]--></head><body>
+		
+		<div id="container">
+			<div id="header">
+				<div id="header-container">
+					<div id="header-logo">
+						<img src="http://alpha.search.wikia.com/aaron/images/logo_sub.gif" alt="Wikia Search" border="0">
+
+					</div>
+					<div id="header-search-bar"><form onsubmit="return sform(event)">
+						<input id="q" value="" type="text" name="q"> </form>
+						<div id="header-go-button" onclick="sform()"></div>
+					</div>
+					<div id="header-lo-buttons">
+						<div id="lo-register"><a href="#">Start a new account</a></div>
+						<div id="lo-login"><a href="#">Login</a></div>
+					</div>
+				</div>
+			</div>
+			<div id="sr">
+				<div id="sr-container">
+					<div id="sr-count">
+						<span class="count-color">Results</span><span id="span"></span><span class="count-color">of approximately</span><span id="count"></span><span class="count-color">for <span id="result-q"></span></span> <span id="discuss-result-link"></span>
+					</div>
+					<div id="sr-mini">
+						<div id="sr-mini-top">
+							<div id="sr-mini-title">Mini Article About "<span id="mini-title"></span>"</div>
+							<div id="sr-mini-tr"></div>
+						</div>
+						<div id="sr-mini-content" class="collapsed">
+							
+						</div>
+						<div id="sr-mini-controls">
+							
+						</div>
+						<div id="sr-mini-bottom">
+							<div id="sr-mini-bl"></div>
+							<div id="sr-mini-br"></div>
+						</div>
+					</div>
+					<div id="sr-results">
+
+					</div>
+					<div id="sr-bottom">
+						<div id="sr-search-bottom">
+							<form onsubmit="smod(event)"> 
+							<input id="mq" value="" type="text"></form>
+							<div id="sr-search-bottom-button" onclick="sform()"></div>	
+						</div>
+					</div>
+				</div>
+				
+				<div id="side-unit">
+					<div id="sr-people">
+						<div id="sr-people-top">
+							<div id="sr-people-title">People Matching "<span id="query"></span>"</div>
+							<div id="sr-people-tr"></div>
+						</div>
+						<div id="sr-people-content">
+							
+						</div>
+						<div id="sr-people-bottom">
+							<div id="sr-people-bl"></div>
+							<div id="sr-people-br"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<div id="footer-logo"></div>
+				<div id="footer-links">
+
+					<a href="#">About Us</a>
+					<a href="#">Contact Us</a>
+					<a href="#">Terms of Use</a>
+				</div>
+				<div id="footer-legal">
+					Wikia&reg; is a registered service mark of Wikia, Inc.  All rights reserved.
+				</div>
+			</div>
+
+		</div>
+<script>hasher();</script>
+	</body></html>

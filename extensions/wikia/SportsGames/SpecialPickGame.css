@@ -1,0 +1,395 @@
+.pick-container {
+	margin:0px 0px 0px 0px;
+	float:left;
+	width:600px;
+}
+
+.pick-display {
+		width:600px;
+		border:1px solid #D7DEE8;
+		margin:0px 10px 10px 0px;
+		padding:10px;
+		background-color: #F2F4F7;
+}
+
+.pick-display-hovered {
+		width:600px;
+		border:1px solid #D7DEE8;
+		margin:0px 10px 10px 0px;
+		padding:10px;
+		background-color: #F2F4F7;
+}
+
+.pick-display-started {
+		width:600px;
+		border:1px solid #F2F4F7;
+		margin:0px 10px 10px 0px;
+		padding:10px;
+}
+
+.pick-display-hovered-started {
+		width:600px;
+		border:1px solid #D7DEE8;
+		margin:0px 10px 10px 0px;
+		padding:10px;
+		background-color: #F2F4F7;
+}
+
+.pick-display-won {
+		width:600px;
+		border:1px solid #7cd854;
+		margin:0px 10px 10px 0px;
+		padding:10px;
+}
+
+.pick-display-won .pick-title-started {
+	color:#7cd854;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.pick-display-won .pick-status {
+	color:#7cd854;
+	font-size:14px;
+	font-weight:bold;
+	margin:10px 0px 5px;
+}
+
+.pick-display-won .pic-team-1-started-over {
+	font-size:13px;
+	color:#7cd854;
+}
+
+.pick-display-won .pic-team-2-started-over {
+	font-size:13px;
+	color:#7cd854;
+}
+
+.pick-display-won .pick-vote-span-started {
+	font-size:13px;
+	color:#7cd854;
+}
+
+.pick-display-won .pick-wager-started {
+	float:right;
+	font-size:13px;
+	margin:10px 0px 0px;
+}
+
+.pick-display-won .wager-started-text {
+	color:#7cd854;
+}
+
+.pick-display-lost {
+		border:1px solid #666666;
+		margin:0px 10px 10px 0px;
+		padding:10px;
+		width:600px;
+}
+
+.pick-display-lost .pick-title-started {
+	color:#666666;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.pick-display-lost .pick-status {
+	color:#666666;
+	font-size:14px;
+	font-weight:bold;
+	margin:10px 0px 5px;
+}
+
+.pick-display-lost .pic-team-1-started-over {
+	font-size:13px;
+	color:#666666;
+}
+
+.pick-display-lost .pic-team-2-started-over {
+	font-size:13px;
+	color:#666666;
+}
+
+.pick-display-lost .pick-vote-span-started {
+	font-size:13px;
+	color:#666666;
+}
+
+.pick-display-lost .pick-wager-started {
+	float:right;
+	font-size:13px;
+	margin:10px 0px 0px;
+}
+
+.pick-display-lost .wager-started-text {
+	color:#666666;
+}
+
+.pick-display p, .pick-display-hovered p, .pick-display-won p, .pick-display-lost p {
+	margin:0px !important;
+	padding:0px !important;
+}
+
+.pick-title {
+	font-size:14px;
+	color:#333333;
+	font-weight:bold;
+}
+
+.pick-title-started {
+	font-size:14px;
+	color:#BCBCBC;
+	font-weight:bold;
+}
+
+.pick-status {
+	font-size:14px;
+	color:#BCBCBC;
+	font-weight:bold;
+	margin:10px 0px 10px 0px;
+}
+
+.pick-vote-span {
+	color:#797979;
+	font-size:13px;
+}
+
+.pick-vote-span-started {
+	color:#BCBCBC;
+	font-size:13px;
+}
+
+
+.pic-team-1, .pic-team-2 {
+	color:#797979;
+	font-size:13px;
+	margin:10px 0px 0px 0px;
+}
+
+.pic-team-1-started-over, .pic-team-2-started-over {
+	color:#BCBCBC;
+	font-size:13px;
+	margin:0px;
+}
+
+.pic-team-1-started, .pic-team-2-started {
+	color:#BCBCBC;
+	font-size:13px;
+	margin:10px 0px 0px 0px;
+}
+
+.pic-team-1 img, .pic-team-2 img {
+	vertical-align:middle;
+	border:1px solid #dcdcdc;
+	margin:0px 5px 0px 0px;
+	cursor: pointer;
+}
+
+ .pic-team-1-started img, .pic-team-2-started img {
+	vertical-align:middle;
+	border:1px solid #dcdcdc;
+	margin:0px 5px 0px 0px;
+}
+
+.teams-container {
+	float:left;
+	width:300px;
+}
+
+.pick-wager {
+	float:right;
+	margin:30px 0px 0px 0px;
+	color:#797979;
+	font-size:13px;
+}
+
+.wager-text {
+	float:left;
+	padding:3px;
+	margin:0px 10px 0px 0px;
+	line-height:105% !important;
+}
+
+.pick-display-started .pick-wager-started {
+	float:right;
+	margin:10px 0px 0px 0px;
+	color:#BCBCBC;
+	font-size:13px;
+}
+
+.pick-wager-started {
+	float:right;
+	margin:30px 0px 0px 0px;
+	color:#BCBCBC;
+	font-size:13px;
+}
+
+.pick-wager-spacer {
+	color:#797979;
+	font-size:13px;
+	float:left;
+	padding:3px;
+	margin:0px 1px;
+	line-height:105% !important;
+
+}
+
+.pick-wager-spacer-started {
+	color:#BCBCBC;
+	font-size:13px;
+	float:left;
+	padding:3px;
+	line-height:105% !important;
+}
+
+.pick-wager-spacer-selected {
+	color:#797979;
+	font-size:13px;
+	float:left;
+	padding:3px;
+	margin:0px 1px;
+	line-height:105% !important;
+}
+
+.pick-wager-level {
+	color:#797979;
+	font-size:13px;
+	cursor: pointer;
+	float:left;
+	padding:3px;
+	line-height:105% !important;
+
+}
+
+.pick-wager-level-started {
+	color:#BCBCBC;
+	font-size:13px;
+	padding: 3px;
+	float:left;
+	line-height:105% !important;
+}
+
+.pick-wager-level-selected {
+	color:#797979;
+	font-size:13px;
+	border:1px solid #797979;
+	float:left;
+	padding:2px;
+	line-height:105% !important;
+}
+
+.wager-started-text {
+	color:#BCBCBC;
+	font-size:13px;
+	padding: 3px;
+}
+
+.total-wagers-text {
+	color:#ff0000;
+	font-size:14px;
+	font-weight:bold;
+	padding:15px 0px;
+}
+
+.pick-date-navigation {
+	width:600px;
+}
+
+.pick-navigation-day-title {
+	margin:0px 0px 10px 0px;
+	color:#333333;
+	font-weight:bold;
+	font-size:14px;
+	
+}
+
+.pick-navigation-day-link {
+	width:50px;
+	height:50px;
+	border:1px solid #D7DEE8;
+	margin:0px 5px 0px 0px;
+	padding:0px;
+	float:left;
+	text-align: center;
+	cursor:pointer;
+	
+}
+
+.pick-navigation-day-link a {
+	text-decoration: none;
+	
+}
+
+.pick-navigation-day-current {
+	width:50px;
+	height:50px;
+	border:1px solid #D7DEE8;
+	margin:0px 5px 0px 0px;
+	padding:0px;
+	background-color: #F2F4F7;
+	float:left;
+	text-align: center;
+	cursor:default;
+}
+
+.pick-navigation-day-name {
+	padding: 4px 0px;
+	font-weight:bold;
+}
+
+.pick-navigation-day-link {
+	color:#376EA6;
+}
+
+.pick-navigation-day-arrows {
+	float:left;
+	width:25px;
+	height:50px;
+	border:1px solid #dcdcdc;
+	margin:0px 5px 0px 0px;
+	text-align:center;
+	cursor:pointer;
+}
+
+/**Menu*
+.pick-menu {
+	float:right;
+	width:250px;
+}
+
+.pick-menu h2 {
+	font-size:16px;
+	color:#333333;
+	font-weight:bold;
+	border-bottom:1px solid #dcdcdc;
+	padding:0px 0px 3px 0px;
+	margin:0px 0px 10px 0px;
+}
+
+.pick-menu p {
+	margin:0px 0px 3px 0px !important;
+}
+
+.pick-menu a {
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.pickgame-currency {
+	padding:10px;
+	background-color:#F2F4F7;
+	border:1px solid #D7DEE8;
+	margin:0px 0px 20px 0px;
+}
+
+.pickgame-currency img {
+	border:1px solid #dcdcdc;
+	margin:0px 3px 0px 0px;
+	vertical-align:middle;
+}
+
+.pickgame-currency .currency-text {
+	color:#797979;
+	font-size:13px;
+}
+*/

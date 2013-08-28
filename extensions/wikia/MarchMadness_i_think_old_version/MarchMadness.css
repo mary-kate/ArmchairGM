@@ -1,0 +1,74 @@
+
+
+.game {
+	position:relative; 
+	top: 25px;
+	left:25px;
+	border: solid 1px black;
+	margin: 2px;
+	padding: 2px;
+}
+
+.topteam {
+	border: solid 1px blue;
+	margin: 1px;
+	padding: 1px;
+	width: 125px;
+	cursor: pointer;
+}
+
+.bottomteam {
+	border: solid 1px red;
+	margin: 1px;
+	padding: 1px;
+	width: 125px;
+	cursor: pointer;
+}
+
+.champ {
+	border: solid 1px green;
+	margin: 1px;
+	padding: 1px;
+	width: 125px;
+	cursor: pointer;
+}
+
+.bracket-button-off {
+	border: solid 1px black;
+	background-color:#cccccc;
+	color: black;
+	margin: 1px;
+	padding: 1px;
+	width: 150px;
+	cursor: pointer;
+	float: left;
+}
+
+.bracket-button-on {
+	border: solid 1px black;
+	background-color:#ffffff;
+	color: black;
+	margin: 1px;
+	padding: 1px;
+	width: 150px;
+	float: left;
+}
+
+#complete-check {
+	float:left;
+}
+
+#submit-button {
+	border: solid 1px black;
+	background-color:#aaaaaa;
+	color: white;
+	margin: 1px;
+	padding: 1px;
+	width: 150px;
+	cursor: pointer;
+}
+
+#march-madness {
+	margin:0px 0px 0px 0px;
+	/*height:500px;*/
+}

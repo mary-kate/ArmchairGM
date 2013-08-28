@@ -1,0 +1,1539 @@
+<?xml version="1.0"?>
+<nfl2007>
+<game>
+<home>Indianapolis</home>
+<away>New Orleans</away>
+<datetime>2007-09-06 20:30:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>Minnesota</home>
+<away>Atlanta</away>
+<datetime>2007-09-09 13:00:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>St. Louis</home>
+<away>Carolina</away>
+<datetime>2007-09-09 13:00:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>Buffalo</home>
+<away>Denver</away>
+<datetime>2007-09-09 13:00:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>Houston</home>
+<away>Kansas City</away>
+<datetime>2007-09-09 13:00:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>Washington</home>
+<away>Miami</away>
+<datetime>2007-09-09 13:00:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>N.Y. Jets</home>
+<away>New England</away>
+<datetime>2007-09-09 13:00:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>Green Bay</home>
+<away>Philadelphia</away>
+<datetime>2007-09-09 13:00:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>Cleveland</home>
+<away>Pittsburgh</away>
+<datetime>2007-09-09 13:00:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>Jacksonville</home>
+<away>Tennessee</away>
+<datetime>2007-09-09 13:00:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>San Diego</home>
+<away>Chicago</away>
+<datetime>2007-09-09 16:15:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>Oakland</home>
+<away>Detroit</away>
+<datetime>2007-09-09 16:15:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>Seattle</home>
+<away>Tampa Bay</away>
+<datetime>2007-09-09 16:15:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>Dallas</home>
+<away>N.Y. Giants</away>
+<datetime>2007-09-09 20:15:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>Cincinnati</home>
+<away>Baltimore</away>
+<datetime>2007-09-10 19:00:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>San Francisco</home>
+<away>Arizona</away>
+<datetime>2007-09-10 22:15:00</datetime>
+<week>1</week>
+</game>
+<game>
+<home>Jacksonville</home>
+<away>Atlanta</away>
+<datetime>2007-09-16 13:00:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>Pittsburgh</home>
+<away>Buffalo</away>
+<datetime>2007-09-16 13:00:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>Cleveland</home>
+<away>Cincinnati</away>
+<datetime>2007-09-16 13:00:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>N.Y. Giants</home>
+<away>Green Bay</away>
+<datetime>2007-09-16 13:00:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>Carolina</home>
+<away>Houston</away>
+<datetime>2007-09-16 13:00:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>Tennessee</home>
+<away>Indianapolis</away>
+<datetime>2007-09-16 13:00:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>Tampa Bay</home>
+<away>New Orleans</away>
+<datetime>2007-09-16 13:00:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>St. Louis</home>
+<away>San Francisco</away>
+<datetime>2007-09-16 13:00:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>Miami</home>
+<away>Dallas</away>
+<datetime>2007-09-16 16:05:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>Detroit</home>
+<away>Minnesota</away>
+<datetime>2007-09-16 16:05:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>Arizona</home>
+<away>Seattle</away>
+<datetime>2007-09-16 16:05:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>Chicago</home>
+<away>Kansas City</away>
+<datetime>2007-09-16 16:15:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>Baltimore</home>
+<away>N.Y. Jets</away>
+<datetime>2007-09-16 16:15:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>Denver</home>
+<away>Oakland</away>
+<datetime>2007-09-16 16:15:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>New England</home>
+<away>San Diego</away>
+<datetime>2007-09-16 20:15:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>Philadelphia</home>
+<away>Washington</away>
+<datetime>2007-09-17 20:30:00</datetime>
+<week>2</week>
+</game>
+<game>
+<home>Baltimore</home>
+<away>Arizona</away>
+<datetime>2007-09-23 13:00:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>New England</home>
+<away>Buffalo</away>
+<datetime>2007-09-23 13:00:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>Philadelphia</home>
+<away>Detroit</away>
+<datetime>2007-09-23 13:00:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>Houston</home>
+<away>Indianapolis</away>
+<datetime>2007-09-23 13:00:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>N.Y. Jets</home>
+<away>Miami</away>
+<datetime>2007-09-23 13:00:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>Kansas City</home>
+<away>Minnesota</away>
+<datetime>2007-09-23 13:00:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>Green Bay</home>
+<away>San Diego</away>
+<datetime>2007-09-23 13:00:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>Pittsburgh</home>
+<away>San Francisco</away>
+<datetime>2007-09-23 13:00:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>Tampa Bay</home>
+<away>St. Louis</away>
+<datetime>2007-09-23 13:00:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>Seattle</home>
+<away>Cincinnati</away>
+<datetime>2007-09-23 16:05:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>Oakland</home>
+<away>Cleveland</away>
+<datetime>2007-09-23 16:05:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>Denver</home>
+<away>Jacksonville</away>
+<datetime>2007-09-23 16:05:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>Atlanta</home>
+<away>Carolina</away>
+<datetime>2007-09-23 16:15:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>Washington</home>
+<away>N.Y. Giants</away>
+<datetime>2007-09-23 16:15:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>Chicago</home>
+<away>Dallas</away>
+<datetime>2007-09-23 20:15:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>New Orleans</home>
+<away>Tennessee</away>
+<datetime>2007-09-24 20:30:00</datetime>
+<week>3</week>
+</game>
+<game>
+<home>Cleveland</home>
+<away>Baltimore</away>
+<datetime>2007-09-30 13:00:00</datetime>
+<week>4</week>
+</game>
+<game>
+<home>Detroit</home>
+<away>Chicago</away>
+<datetime>2007-09-30 13:00:00</datetime>
+<week>4</week>
+</game>
+<game>
+<home>Minnesota</home>
+<away>Green Bay</away>
+<datetime>2007-09-30 13:00:00</datetime>
+<week>4</week>
+</game>
+<game>
+<home>Atlanta</home>
+<away>Houston</away>
+<datetime>2007-09-30 13:00:00</datetime>
+<week>4</week>
+</game>
+<game>
+<home>Buffalo</home>
+<away>N.Y. Jets</away>
+<datetime>2007-09-30 13:00:00</datetime>
+<week>4</week>
+</game>
+<game>
+<home>Miami</home>
+<away>Oakland</away>
+<datetime>2007-09-30 13:00:00</datetime>
+<week>4</week>
+</game>
+<game>
+<home>Dallas</home>
+<away>St. Louis</away>
+<datetime>2007-09-30 13:00:00</datetime>
+<week>4</week>
+</game>
+<game>
+<home>San Francisco</home>
+<away>Seattle</away>
+<datetime>2007-09-30 16:05:00</datetime>
+<week>4</week>
+</game>
+<game>
+<home>Carolina</home>
+<away>Tampa Bay</away>
+<datetime>2007-09-30 16:05:00</datetime>
+<week>4</week>
+</game>
+<game>
+<home>Indianapolis</home>
+<away>Denver</away>
+<datetime>2007-09-30 16:15:00</datetime>
+<week>4</week>
+</game>
+<game>
+<home>San Diego</home>
+<away>Kansas City</away>
+<datetime>2007-09-30 16:15:00</datetime>
+<week>4</week>
+</game>
+<game>
+<home>Arizona</home>
+<away>Pittsburgh</away>
+<datetime>2007-09-30 16:15:00</datetime>
+<week>4</week>
+</game>
+<game>
+<home>N.Y. Giants</home>
+<away>Philadelphia</away>
+<datetime>2007-09-30 20:15:00</datetime>
+<week>4</week>
+</game>
+<game>
+<home>Cincinnati</home>
+<away>New England</away>
+<datetime>2007-10-01 20:30:00</datetime>
+<week>4</week>
+</game>
+<game>
+<home>St. Louis</home>
+<away>Arizona</away>
+<datetime>2007-10-07 13:00:00</datetime>
+<week>5</week>
+</game>
+<game>
+<home>Tennessee</home>
+<away>Atlanta</away>
+<datetime>2007-10-07 13:00:00</datetime>
+<week>5</week>
+</game>
+<game>
+<home>New Orleans</home>
+<away>Carolina</away>
+<datetime>2007-10-07 13:00:00</datetime>
+<week>5</week>
+</game>
+<game>
+<home>New England</home>
+<away>Cleveland</away>
+<datetime>2007-10-07 13:00:00</datetime>
+<week>5</week>
+</game>
+<game>
+<home>Washington</home>
+<away>Detroit</away>
+<datetime>2007-10-07 13:00:00</datetime>
+<week>5</week>
+</game>
+<game>
+<home>Kansas City</home>
+<away>Jacksonville</away>
+<datetime>2007-10-07 13:00:00</datetime>
+<week>5</week>
+</game>
+<game>
+<home>Houston</home>
+<away>Miami</away>
+<datetime>2007-10-07 13:00:00</datetime>
+<week>5</week>
+</game>
+<game>
+<home>N.Y. Giants</home>
+<away>N.Y. Jets</away>
+<datetime>2007-10-07 13:00:00</datetime>
+<week>5</week>
+</game>
+<game>
+<home>Pittsburgh</home>
+<away>Seattle</away>
+<datetime>2007-10-07 13:00:00</datetime>
+<week>5</week>
+</game>
+<game>
+<home>Indianapolis</home>
+<away>Tampa Bay</away>
+<datetime>2007-10-07 16:05:00</datetime>
+<week>5</week>
+</game>
+<game>
+<home>San Francisco</home>
+<away>Baltimore</away>
+<datetime>2007-10-07 16:15:00</datetime>
+<week>5</week>
+</game>
+<game>
+<home>Denver</home>
+<away>San Diego</away>
+<datetime>2007-10-07 16:15:00</datetime>
+<week>5</week>
+</game>
+<game>
+<home>Green Bay</home>
+<away>Chicago</away>
+<datetime>2007-10-07 20:15:00</datetime>
+<week>5</week>
+</game>
+<game>
+<home>Buffalo</home>
+<away>Dallas</away>
+<datetime>2007-10-08 20:30:00</datetime>
+<week>5</week>
+</game>
+<game>
+<home>Kansas City</home>
+<away>Cincinnati</away>
+<datetime>2007-10-14 13:00:00</datetime>
+<week>6</week>
+</game>
+<game>
+<home>Jacksonville</home>
+<away>Houston</away>
+<datetime>2007-10-14 13:00:00</datetime>
+<week>6</week>
+</game>
+<game>
+<home>Cleveland</home>
+<away>Miami</away>
+<datetime>2007-10-14 13:00:00</datetime>
+<week>6</week>
+</game>
+<game>
+<home>Chicago</home>
+<away>Minnesota</away>
+<datetime>2007-10-14 13:00:00</datetime>
+<week>6</week>
+</game>
+<game>
+<home>N.Y. Jets</home>
+<away>Philadelphia</away>
+<datetime>2007-10-14 13:00:00</datetime>
+<week>6</week>
+</game>
+<game>
+<home>Baltimore</home>
+<away>St. Louis</away>
+<datetime>2007-10-14 13:00:00</datetime>
+<week>6</week>
+</game>
+<game>
+<home>Tampa Bay</home>
+<away>Tennessee</away>
+<datetime>2007-10-14 13:00:00</datetime>
+<week>6</week>
+</game>
+<game>
+<home>Green Bay</home>
+<away>Washington</away>
+<datetime>2007-10-14 13:00:00</datetime>
+<week>6</week>
+</game>
+<game>
+<home>Arizona</home>
+<away>Carolina</away>
+<datetime>2007-10-14 16:05:00</datetime>
+<week>6</week>
+</game>
+<game>
+<home>Dallas</home>
+<away>New England</away>
+<datetime>2007-10-14 16:15:00</datetime>
+<week>6</week>
+</game>
+<game>
+<home>San Diego</home>
+<away>Oakland</away>
+<datetime>2007-10-14 16:15:00</datetime>
+<week>6</week>
+</game>
+<game>
+<home>Seattle</home>
+<away>New Orleans</away>
+<datetime>2007-10-14 20:15:00</datetime>
+<week>6</week>
+</game>
+<game>
+<home>Atlanta</home>
+<away>N.Y. Giants</away>
+<datetime>2007-10-15 20:30:00</datetime>
+<week>6</week>
+</game>
+<game>
+<home>Washington</home>
+<away>Arizona</away>
+<datetime>2007-10-21 13:00:00</datetime>
+<week>7</week>
+</game>
+<game>
+<home>New Orleans</home>
+<away>Atlanta</away>
+<datetime>2007-10-21 13:00:00</datetime>
+<week>7</week>
+</game>
+<game>
+<home>Buffalo</home>
+<away>Baltimore</away>
+<datetime>2007-10-21 13:00:00</datetime>
+<week>7</week>
+</game>
+<game>
+<home>Dallas</home>
+<away>Minnesota</away>
+<datetime>2007-10-21 13:00:00</datetime>
+<week>7</week>
+</game>
+<game>
+<home>Miami</home>
+<away>New England</away>
+<datetime>2007-10-21 13:00:00</datetime>
+<week>7</week>
+</game>
+<game>
+<home>N.Y. Giants</home>
+<away>San Francisco</away>
+<datetime>2007-10-21 13:00:00</datetime>
+<week>7</week>
+</game>
+<game>
+<home>Detroit</home>
+<away>Tampa Bay</away>
+<datetime>2007-10-21 13:00:00</datetime>
+<week>7</week>
+</game>
+<game>
+<home>Houston</home>
+<away>Tennessee</away>
+<datetime>2007-10-21 13:00:00</datetime>
+<week>7</week>
+</game>
+<game>
+<home>Oakland</home>
+<away>Kansas City</away>
+<datetime>2007-10-21 16:05:00</datetime>
+<week>7</week>
+</game>
+<game>
+<home>Cincinnati</home>
+<away>N.Y. Jets</away>
+<datetime>2007-10-21 16:05:00</datetime>
+<week>7</week>
+</game>
+<game>
+<home>Philadelphia</home>
+<away>Chicago</away>
+<datetime>2007-10-21 16:15:00</datetime>
+<week>7</week>
+</game>
+<game>
+<home>Seattle</home>
+<away>St. Louis</away>
+<datetime>2007-10-21 16:15:00</datetime>
+<week>7</week>
+</game>
+<game>
+<home>Denver</home>
+<away>Pittsburgh</away>
+<datetime>2007-10-21 20:15:00</datetime>
+<week>7</week>
+</game>
+<game>
+<home>Jacksonville</home>
+<away>Indianapolis</away>
+<datetime>2007-10-22 20:30:00</datetime>
+<week>7</week>
+</game>
+<game>
+<home>St. Louis</home>
+<away>Cleveland</away>
+<datetime>2007-10-28 13:00:00</datetime>
+<week>8</week>
+</game>
+<game>
+<home>Chicago</home>
+<away>Detroit</away>
+<datetime>2007-10-28 13:00:00</datetime>
+<week>8</week>
+</game>
+<game>
+<home>Carolina</home>
+<away>Indianapolis</away>
+<datetime>2007-10-28 13:00:00</datetime>
+<week>8</week>
+</game>
+<game>
+<home>Miami</home>
+<away>N.Y. Giants</away>
+<datetime>2007-10-28 13:00:00</datetime>
+<week>8</week>
+</game>
+<game>
+<home>Tennessee</home>
+<away>Oakland</away>
+<datetime>2007-10-28 13:00:00</datetime>
+<week>8</week>
+</game>
+<game>
+<home>Minnesota</home>
+<away>Philadelphia</away>
+<datetime>2007-10-28 13:00:00</datetime>
+<week>8</week>
+</game>
+<game>
+<home>Cincinnati</home>
+<away>Pittsburgh</away>
+<datetime>2007-10-28 13:00:00</datetime>
+<week>8</week>
+</game>
+<game>
+<home>N.Y. Jets</home>
+<away>Buffalo</away>
+<datetime>2007-10-28 16:05:00</datetime>
+<week>8</week>
+</game>
+<game>
+<home>San Diego</home>
+<away>Houston</away>
+<datetime>2007-10-28 16:05:00</datetime>
+<week>8</week>
+</game>
+<game>
+<home>Tampa Bay</home>
+<away>Jacksonville</away>
+<datetime>2007-10-28 16:05:00</datetime>
+<week>8</week>
+</game>
+<game>
+<home>San Francisco</home>
+<away>New Orleans</away>
+<datetime>2007-10-28 16:15:00</datetime>
+<week>8</week>
+</game>
+<game>
+<home>New England</home>
+<away>Washington</away>
+<datetime>2007-10-28 16:15:00</datetime>
+<week>8</week>
+</game>
+<game>
+<home>Denver</home>
+<away>Green Bay</away>
+<datetime>2007-10-29 20:30:00</datetime>
+<week>8</week>
+</game>
+<game>
+<home>Tampa Bay</home>
+<away>Arizona</away>
+<datetime>2007-11-04 13:00:00</datetime>
+<week>9</week>
+</game>
+<game>
+<home>Tennessee</home>
+<away>Carolina</away>
+<datetime>2007-11-04 13:00:00</datetime>
+<week>9</week>
+</game>
+<game>
+<home>Buffalo</home>
+<away>Cincinnati</away>
+<datetime>2007-11-04 13:00:00</datetime>
+<week>9</week>
+</game>
+<game>
+<home>Detroit</home>
+<away>Denver</away>
+<datetime>2007-11-04 13:00:00</datetime>
+<week>9</week>
+</game>
+<game>
+<home>Kansas City</home>
+<away>Green Bay</away>
+<datetime>2007-11-04 13:00:00</datetime>
+<week>9</week>
+</game>
+<game>
+<home>New Orleans</home>
+<away>Jacksonville</away>
+<datetime>2007-11-04 13:00:00</datetime>
+<week>9</week>
+</game>
+<game>
+<home>Minnesota</home>
+<away>San Diego</away>
+<datetime>2007-11-04 13:00:00</datetime>
+<week>9</week>
+</game>
+<game>
+<home>Atlanta</home>
+<away>San Francisco</away>
+<datetime>2007-11-04 13:00:00</datetime>
+<week>9</week>
+</game>
+<game>
+<home>N.Y. Jets</home>
+<away>Washington</away>
+<datetime>2007-11-04 13:00:00</datetime>
+<week>9</week>
+</game>
+<game>
+<home>Cleveland</home>
+<away>Seattle</away>
+<datetime>2007-11-04 16:05:00</datetime>
+<week>9</week>
+</game>
+<game>
+<home>Oakland</home>
+<away>Houston</away>
+<datetime>2007-11-04 16:15:00</datetime>
+<week>9</week>
+</game>
+<game>
+<home>Indianapolis</home>
+<away>New England</away>
+<datetime>2007-11-04 16:15:00</datetime>
+<week>9</week>
+</game>
+<game>
+<home>Philadelphia</home>
+<away>Dallas</away>
+<datetime>2007-11-04 20:15:00</datetime>
+<week>9</week>
+</game>
+<game>
+<home>Pittsburgh</home>
+<away>Baltimore</away>
+<datetime>2007-11-05 20:30:00</datetime>
+<week>9</week>
+</game>
+<game>
+<home>Carolina</home>
+<away>Atlanta</away>
+<datetime>2007-11-11 13:00:00</datetime>
+<week>10</week>
+</game>
+<game>
+<home>Miami</home>
+<away>Buffalo</away>
+<datetime>2007-11-11 13:00:00</datetime>
+<week>10</week>
+</game>
+<game>
+<home>Pittsburgh</home>
+<away>Cleveland</away>
+<datetime>2007-11-11 13:00:00</datetime>
+<week>10</week>
+</game>
+<game>
+<home>Kansas City</home>
+<away>Denver</away>
+<datetime>2007-11-11 13:00:00</datetime>
+<week>10</week>
+</game>
+<game>
+<home>Tennessee</home>
+<away>Jacksonville</away>
+<datetime>2007-11-11 13:00:00</datetime>
+<week>10</week>
+</game>
+<game>
+<home>Green Bay</home>
+<away>Minnesota</away>
+<datetime>2007-11-11 13:00:00</datetime>
+<week>10</week>
+</game>
+<game>
+<home>Washington</home>
+<away>Philadelphia</away>
+<datetime>2007-11-11 13:00:00</datetime>
+<week>10</week>
+</game>
+<game>
+<home>New Orleans</home>
+<away>St. Louis</away>
+<datetime>2007-11-11 13:00:00</datetime>
+<week>10</week>
+</game>
+<game>
+<home>Baltimore</home>
+<away>Cincinnati</away>
+<datetime>2007-11-11 16:05:00</datetime>
+<week>10</week>
+</game>
+<game>
+<home>Oakland</home>
+<away>Chicago</away>
+<datetime>2007-11-11 16:15:00</datetime>
+<week>10</week>
+</game>
+<game>
+<home>N.Y. Giants</home>
+<away>Dallas</away>
+<datetime>2007-11-11 16:15:00</datetime>
+<week>10</week>
+</game>
+<game>
+<home>Arizona</home>
+<away>Detroit</away>
+<datetime>2007-11-11 16:15:00</datetime>
+<week>10</week>
+</game>
+<game>
+<home>San Diego</home>
+<away>Indianapolis</away>
+<datetime>2007-11-11 20:15:00</datetime>
+<week>10</week>
+</game>
+<game>
+<home>Seattle</home>
+<away>San Francisco</away>
+<datetime>2007-11-12 20:30:00</datetime>
+<week>10</week>
+</game>
+<game>
+<home>Cincinnati</home>
+<away>Arizona</away>
+<datetime>2007-11-18 13:00:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>Green Bay</home>
+<away>Carolina</away>
+<datetime>2007-11-18 13:00:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>Baltimore</home>
+<away>Cleveland</away>
+<datetime>2007-11-18 13:00:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>Indianapolis</home>
+<away>Kansas City</away>
+<datetime>2007-11-18 13:00:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>Philadelphia</home>
+<away>Miami</away>
+<datetime>2007-11-18 13:00:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>Buffalo</home>
+<away>New England</away>
+<datetime>2007-11-18 13:00:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>Houston</home>
+<away>New Orleans</away>
+<datetime>2007-11-18 13:00:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>Minnesota</home>
+<away>Oakland</away>
+<datetime>2007-11-18 13:00:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>N.Y. Jets</home>
+<away>Pittsburgh</away>
+<datetime>2007-11-18 13:00:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>Jacksonville</home>
+<away>San Diego</away>
+<datetime>2007-11-18 13:00:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>Atlanta</home>
+<away>Tampa Bay</away>
+<datetime>2007-11-18 13:00:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>Dallas</home>
+<away>Washington</away>
+<datetime>2007-11-18 13:00:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>Detroit</home>
+<away>N.Y. Giants</away>
+<datetime>2007-11-18 16:15:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>San Francisco</home>
+<away>St. Louis</away>
+<datetime>2007-11-18 16:15:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>Seattle</home>
+<away>Chicago</away>
+<datetime>2007-11-18 20:15:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>Denver</home>
+<away>Tennessee</away>
+<datetime>2007-11-19 20:30:00</datetime>
+<week>11</week>
+</game>
+<game>
+<home>Detroit</home>
+<away>Green Bay</away>
+<datetime>2007-11-22 14:20:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>Dallas</home>
+<away>N.Y. Jets</away>
+<datetime>2007-11-22 16:15:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>Atlanta</home>
+<away>Indianapolis</away>
+<datetime>2007-11-22 20:15:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>Jacksonville</home>
+<away>Buffalo</away>
+<datetime>2007-11-25 13:00:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>Chicago</home>
+<away>Denver</away>
+<datetime>2007-11-25 13:00:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>Cleveland</home>
+<away>Houston</away>
+<datetime>2007-11-25 13:00:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>N.Y. Giants</home>
+<away>Minnesota</away>
+<datetime>2007-11-25 13:00:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>Carolina</home>
+<away>New Orleans</away>
+<datetime>2007-11-25 13:00:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>Kansas City</home>
+<away>Oakland</away>
+<datetime>2007-11-25 13:00:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>St. Louis</home>
+<away>Seattle</away>
+<datetime>2007-11-25 13:00:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>Cincinnati</home>
+<away>Tennessee</away>
+<datetime>2007-11-25 13:00:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>Tampa Bay</home>
+<away>Washington</away>
+<datetime>2007-11-25 13:00:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>Arizona</home>
+<away>San Francisco</away>
+<datetime>2007-11-25 16:05:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>San Diego</home>
+<away>Baltimore</away>
+<datetime>2007-11-25 16:15:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>New England</home>
+<away>Philadelphia</away>
+<datetime>2007-11-25 20:15:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>Pittsburgh</home>
+<away>Miami</away>
+<datetime>2007-11-26 20:30:00</datetime>
+<week>12</week>
+</game>
+<game>
+<home>Dallas</home>
+<away>Green Bay</away>
+<datetime>2007-11-29 20:15:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>St. Louis</home>
+<away>Atlanta</away>
+<datetime>2007-12-02 13:00:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>Washington</home>
+<away>Buffalo</away>
+<datetime>2007-12-02 13:00:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>Minnesota</home>
+<away>Detroit</away>
+<datetime>2007-12-02 13:00:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>Tennessee</home>
+<away>Houston</away>
+<datetime>2007-12-02 13:00:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>Indianapolis</home>
+<away>Jacksonville</away>
+<datetime>2007-12-02 13:00:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>Miami</home>
+<away>N.Y. Jets</away>
+<datetime>2007-12-02 13:00:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>Kansas City</home>
+<away>San Diego</away>
+<datetime>2007-12-02 13:00:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>Philadelphia</home>
+<away>Seattle</away>
+<datetime>2007-12-02 13:00:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>Carolina</home>
+<away>San Francisco</away>
+<datetime>2007-12-02 13:00:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>New Orleans</home>
+<away>Tampa Bay</away>
+<datetime>2007-12-02 13:00:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>Arizona</home>
+<away>Cleveland</away>
+<datetime>2007-12-02 16:05:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>Oakland</home>
+<away>Denver</away>
+<datetime>2007-12-02 16:05:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>Chicago</home>
+<away>N.Y. Giants</away>
+<datetime>2007-12-02 16:15:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>Pittsburgh</home>
+<away>Cincinnati</away>
+<datetime>2007-12-02 20:15:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>Baltimore</home>
+<away>New England</away>
+<datetime>2007-12-03 20:30:00</datetime>
+<week>13</week>
+</game>
+<game>
+<home>Washington</home>
+<away>Chicago</away>
+<datetime>2007-12-06 20:15:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>Jacksonville</home>
+<away>Carolina</away>
+<datetime>2007-12-09 13:00:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>Detroit</home>
+<away>Dallas</away>
+<datetime>2007-12-09 13:00:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>Buffalo</home>
+<away>Miami</away>
+<datetime>2007-12-09 13:00:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>Philadelphia</home>
+<away>N.Y. Giants</away>
+<datetime>2007-12-09 13:00:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>Green Bay</home>
+<away>Oakland</away>
+<datetime>2007-12-09 13:00:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>New England</home>
+<away>Pittsburgh</away>
+<datetime>2007-12-09 13:00:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>Tennessee</home>
+<away>San Diego</away>
+<datetime>2007-12-09 13:00:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>Cincinnati</home>
+<away>St. Louis</away>
+<datetime>2007-12-09 13:00:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>Houston</home>
+<away>Tampa Bay</away>
+<datetime>2007-12-09 13:00:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>Seattle</home>
+<away>Arizona</away>
+<datetime>2007-12-09 16:05:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>San Francisco</home>
+<away>Minnesota</away>
+<datetime>2007-12-09 16:05:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>N.Y. Jets</home>
+<away>Cleveland</away>
+<datetime>2007-12-09 16:15:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>Denver</home>
+<away>Kansas City</away>
+<datetime>2007-12-09 16:15:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>Baltimore</home>
+<away>Indianapolis</away>
+<datetime>2007-12-09 20:15:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>Atlanta</home>
+<away>New Orleans</away>
+<datetime>2007-12-10 20:30:00</datetime>
+<week>14</week>
+</game>
+<game>
+<home>Houston</home>
+<away>Denver</away>
+<datetime>2007-12-13 20:15:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>San Francisco</home>
+<away>Cincinnati</away>
+<datetime>2007-12-15 20:15:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>New Orleans</home>
+<away>Arizona</away>
+<datetime>2007-12-16 13:00:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>Tampa Bay</home>
+<away>Atlanta</away>
+<datetime>2007-12-16 13:00:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>Miami</home>
+<away>Baltimore</away>
+<datetime>2007-12-16 13:00:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>Cleveland</home>
+<away>Buffalo</away>
+<datetime>2007-12-16 13:00:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>St. Louis</home>
+<away>Green Bay</away>
+<datetime>2007-12-16 13:00:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>Pittsburgh</home>
+<away>Jacksonville</away>
+<datetime>2007-12-16 13:00:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>New England</home>
+<away>N.Y. Jets</away>
+<datetime>2007-12-16 13:00:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>Carolina</home>
+<away>Seattle</away>
+<datetime>2007-12-16 13:00:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>Kansas City</home>
+<away>Tennessee</away>
+<datetime>2007-12-16 13:00:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>Oakland</home>
+<away>Indianapolis</away>
+<datetime>2007-12-16 16:05:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>San Diego</home>
+<away>Detroit</away>
+<datetime>2007-12-16 16:15:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>Dallas</home>
+<away>Philadelphia</away>
+<datetime>2007-12-16 16:15:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>N.Y. Giants</home>
+<away>Washington</away>
+<datetime>2007-12-16 20:15:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>Minnesota</home>
+<away>Chicago</away>
+<datetime>2007-12-17 20:30:00</datetime>
+<week>15</week>
+</game>
+<game>
+<home>St. Louis</home>
+<away>Pittsburgh</away>
+<datetime>2007-12-20 20:15:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>Carolina</home>
+<away>Dallas</away>
+<datetime>2007-12-22 20:15:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>Cincinnati</home>
+<away>Cleveland</away>
+<datetime>2007-12-23 13:00:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>Chicago</home>
+<away>Green Bay</away>
+<datetime>2007-12-23 13:00:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>Indianapolis</home>
+<away>Houston</away>
+<datetime>2007-12-23 13:00:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>Detroit</home>
+<away>Kansas City</away>
+<datetime>2007-12-23 13:00:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>New England</home>
+<away>Miami</away>
+<datetime>2007-12-23 13:00:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>Buffalo</home>
+<away>N.Y. Giants</away>
+<datetime>2007-12-23 13:00:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>Jacksonville</home>
+<away>Oakland</away>
+<datetime>2007-12-23 13:00:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>New Orleans</home>
+<away>Philadelphia</away>
+<datetime>2007-12-23 13:00:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>Minnesota</home>
+<away>Washington</away>
+<datetime>2007-12-23 13:00:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>Arizona</home>
+<away>Atlanta</away>
+<datetime>2007-12-23 16:05:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>Seattle</home>
+<away>Baltimore</away>
+<datetime>2007-12-23 16:15:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>Tennessee</home>
+<away>N.Y. Jets</away>
+<datetime>2007-12-23 16:15:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>San Francisco</home>
+<away>Tampa Bay</away>
+<datetime>2007-12-23 20:15:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>San Diego</home>
+<away>Denver</away>
+<datetime>2007-12-24 20:00:00</datetime>
+<week>16</week>
+</game>
+<game>
+<home>N.Y. Giants</home>
+<away>New England</away>
+<datetime>2007-12-29 20:15:00</datetime>
+<week>17</week>
+</game>
+<game>
+<home>Philadelphia</home>
+<away>Buffalo</away>
+<datetime>2007-12-30 13:00:00</datetime>
+<week>17</week>
+</game>
+<game>
+<home>Tampa Bay</home>
+<away>Carolina</away>
+<datetime>2007-12-30 13:00:00</datetime>
+<week>17</week>
+</game>
+<game>
+<home>Miami</home>
+<away>Cincinnati</away>
+<datetime>2007-12-30 13:00:00</datetime>
+<week>17</week>
+</game>
+<game>
+<home>Washington</home>
+<away>Dallas</away>
+<datetime>2007-12-30 13:00:00</datetime>
+<week>17</week>
+</game>
+<game>
+<home>Green Bay</home>
+<away>Detroit</away>
+<datetime>2007-12-30 13:00:00</datetime>
+<week>17</week>
+</game>
+<game>
+<home>Houston</home>
+<away>Jacksonville</away>
+<datetime>2007-12-30 13:00:00</datetime>
+<week>17</week>
+</game>
+<game>
+<home>Chicago</home>
+<away>New Orleans</away>
+<datetime>2007-12-30 13:00:00</datetime>
+<week>17</week>
+</game>
+<game>
+<home>Baltimore</home>
+<away>Pittsburgh</away>
+<datetime>2007-12-30 13:00:00</datetime>
+<week>17</week>
+</game>
+<game>
+<home>Atlanta</home>
+<away>Seattle</away>
+<datetime>2007-12-30 13:00:00</datetime>
+<week>17</week>
+</game>
+<game>
+<home>Cleveland</home>
+<away>San Francisco</away>
+<datetime>2007-12-30 13:00:00</datetime>
+<week>17</week>
+</game>
+<game>
+<home>Indianapolis</home>
+<away>Tennessee</away>
+<datetime>2007-12-30 13:00:00</datetime>
+<week>17</week>
+</game>
+<game>
+<home>Denver</home>
+<away>Minnesota</away>
+<datetime>2007-12-30 16:15:00</datetime>
+<week>17</week>
+</game>
+<game>
+<home>Oakland</home>
+<away>San Diego</away>
+<datetime>2007-12-30 16:15:00</datetime>
+<week>17</week>
+</game>
+<game>
+<home>Arizona</home>
+<away>St. Louis</away>
+<datetime>2007-12-30 16:15:00</datetime>
+<week>17</week>
+</game>
+<game>
+<home>N.Y. Jets</home>
+<away>Kansas City</away>
+<datetime>2007-12-30 20:15:00</datetime>
+<week>17</week>
+</game>
+</nfl2007>

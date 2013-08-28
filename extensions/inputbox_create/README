@@ -1,0 +1,4 @@
+This is a modified version of the inputbox extension designed to add a
+"create" action and an optional title prefix to the inputbox.  The
+main changes are all written by Algorithm (see the create.php file for
+more info)

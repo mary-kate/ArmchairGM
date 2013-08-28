@@ -1,0 +1,56 @@
+body {	background-color: #FFFFFF;	margin: 0px;}#container {	margin: 0px;	padding: 0px;	width: 100%;}#top {	background-image: url(wikiasubpages-topad%20images/greytop.gif);	background-repeat: repeat-x;	height: 123px;	width: 100%;	border-bottom-width: 1px;	border-bottom-style: solid;	border-bottom-color: #CECECE;	text-align: right;}#top .tab {	height: 22px;	width: 176px;	border-top-width: 1px;	border-left-width: 1px;	border-top-style: solid;	border-left-style: solid;	border-top-color: #CFCFCF;	border-left-color: #cfcfcf;	text-align: center;	background-image: url(wikiasubpages-topad%20images/top_tab_background.gif);	background-repeat: repeat-x;	float: right;	display: block;	vertical-align: middle;	padding-top: 3px;}#logo {	position: absolute;	left: 0px;	top: 0px;	height: 145px;	width: 500px;	overflow: visible;}#content {	border-top-width: 1px;	border-top-style: solid;	border-top-color: #b4b4b4;	padding-right: 7px;	padding-left: 10px;
+	font-size: 13px;	font-family: Arial, Helvetica, sans-serif;}#content h1 {	font-family: Arial, Helvetica, sans-serif;	font-size: 24px;	color: #000000;	font-weight: normal;	margin-top: 0px;	margin-right: 0px;	margin-bottom: 15px;	margin-left: 0px;}#content p {	font-family: Arial, Helvetica, sans-serif;	font-size: 13px;	color: #000000;}#content .openingquote {	padding-left: 30px;}#content a {	color: #002bb8;	text-decoration: none;}#content h6 {	font-family: Arial, Helvetica, sans-serif;	font-size: 11px;	font-style: italic;	font-weight: normal;	margin-top: 0px;	margin-right: 0px;	margin-bottom: 10px;	margin-left: 0px;}#toolbox {	padding-top: 7px;	padding-bottom: 14px;}#toolbox a {	font-family: Arial, Helvetica, sans-serif;	color: #3882e4;	text-decoration: none;	margin-right: 20px;}#toolbox img {	border-top-width: 0px;	border-right-width: 0px;	border-bottom-width: 0px;	border-left-width: 0px;	border-top-style: none;	border-right-style: none;	border-bottom-style: none;	border-left-style: none;	vertical-align: text-bottom;	margin-right: 5px;}#content #toc ul {	list-style-type: none;	margin-top: 15px;	padding: 0px;	margin-right: 0px;	margin-bottom: 0px;	margin-left: 0px;}#top .register a {	font-family: Arial, Helvetica, sans-serif;	font-size: 14px;	color: #3882e4;	text-decoration: none;}#top .register {	display: block;	padding-right: 10px;	padding-top: 10px;	padding-bottom: 20px;	margin: 0px;}#content #toc {	border: 1px solid #aaaaaa;	background-color: #f9f9f9;	font-family: Arial, Helvetica, sans-serif;	font-size: 12px;	padding-top: 15px;	padding-right: 10px;	padding-bottom: 10px;	padding-left: 10px;	width: 25%;}#content #spotlight {	width: 233px;	padding-top: 15px;	padding-right: 7px;	padding-bottom: 7px;	padding-left: 10px;	border: 1px solid #d0d0d0;	clear: right;	float: right;	margin-top: 10px;	margin-left: 40px;}#content #sidebar {	clear: right;	float: right;	width: 250px;	border: 1px solid #999999;	margin-top: 15px;	margin-left: 40px;	margin-bottom: 15px;}#content #sidebar table {	width: 100%;}#content #sidebar th {	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 11px;	font-weight: normal;	color: #000000;	background-color: #ddddbb;	text-align: left;	border-bottom-width: 1px;	border-bottom-style: solid;	border-bottom-color: #999999;	padding-left: 5px;	padding-top: 8px;	padding-bottom: 4px;}#content #spotlight h1 {	font-family: Arial, Helvetica, sans-serif;	font-size: 10px;	font-weight: normal;	padding: 0px;	margin-top: 0px;	margin-right: 0px;	margin-bottom: 10px;	margin-left: 0px;}#content #spotlight p {	padding: 0px;	margin-top: 10px;	margin-right: 0px;	margin-bottom: 0px;	margin-left: 0px;	font-size: 10px;}#content #spotlight img {	border-top-style: none;	border-right-style: none;	border-bottom-style: none;	border-left-style: none;	vertical-align: middle;	margin-right: 10px;}#content #spotlight a {	color: #000000;	text-decoration: none;}#content #toc h1 {	font-family: Arial, Helvetica, sans-serif;	font-size: 12px;	font-weight: bold;	text-align: center;	margin: 0px;	padding: 0px;}#content #toc a {	font-weight: normal;	color: #002bb8;	text-decoration: none;}#top #tabscontainer {	width: 100%;	position: absolute;	left: 0px;	top: 97px;}#top .search {	font-family: Arial, Helvetica, sans-serif;	font-size: 18px;	color: #3882e4;	vertical-align: middle;	display: block;	margin: 0px;	padding: 0px;	padding-right: 5px;}#top .search form {	margin: 0px;	padding: 0px;}#top .tab a {	font-family: Arial, Helvetica, sans-serif;	font-size: 16px;	color: #4489e6;	text-decoration: none;}#top .search .textbox {	background-color: #FFFFFF;	border: 1px solid #e1e1e1;	font-size: 24px;	width: 268px;}#topad {	width: 100%;	padding-top: 20px;	padding-bottom: 10px;	text-align: center;}#content h2 {	font-family: Arial, Helvetica, sans-serif;	font-size: 18px;	color: #000000;	font-weight: normal;	border-bottom-width: 1px;	border-bottom-style: solid;	border-bottom-color: #b4b4b4;}#content .ref {	font-size: 10px;	vertical-align: super;}#content #sidebar caption {	font-family: Arial, Helvetica, sans-serif;	font-size: 13px;	font-weight: bold;	color: #FFFFFF;	background-color: #999966;	text-align: center;	border-bottom-width: 1px;	border-bottom-style: solid;	border-bottom-color: #999999;	padding-top: 8px;	padding-bottom: 6px;}#content #sidebar td {	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 11px;	font-weight: normal;	color: #000000;	background-color: #f0f0f0;	text-align: left;	border-bottom-width: 1px;	border-bottom-style: solid;	border-bottom-color: #999999;	padding-left: 5px;	padding-top: 8px;	padding-bottom: 4px;	vertical-align: top;	padding-right: 4px;}#content h3 {	font-family: Arial, Helvetica, sans-serif;	font-size: 20px;	color: #000000;	font-weight: bold;}#content #toc .l2 {	padding-left: 15px;}#content #toc .l3 {	padding-left: 30px;}#footer {	width: 100%;	border-top-width: 1px;	border-bottom-width: 1px;	border-top-style: solid;	border-bottom-style: solid;	border-top-color: #aaaaaa;	border-bottom-color: #aaaaaa;	background-color: #f9f9f9;	margin-top: 25px;	padding-top: 5px;	padding-bottom: 5px;	clear: both;}#footer .leftimg {	float: left;	margin-left: 10px;}#footer a {	color: #002bb8;	text-decoration: none;	margin-right: 10px;	margin-left: 10px;}#footer img {	vertical-align: middle;	border-top-style: none;	border-right-style: none;	border-bottom-style: none;	border-left-style: none;}#footer p {	font-family: Arial, Helvetica, sans-serif;	font-size: 10px;	text-align: center;	margin-top: 0px;	margin-bottom: 5px;}#footer .rightimg {	float: right;	margin-right: 10px;}
+.printfooter {
+	text-align: center;
+	font-size: 13px;
+}.editsection {	float: right;	font-family: Arial, Helvetica, sans-serif;	font-size: 11px;	font-weight: normal;}
+
+#nav, #nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;	color: #3882e4;
+}
+
+#nav a:link {
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+#nav a:visited {
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+#nav a:active {
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+#nav a:hover {
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+#nav li {
+	float: left;
+	width: 176px;
+}
+
+#nav li ul {
+	position: absolute;
+	width: 175px;
+	left: -999em;
+	border: 1px solid #cfcfcf;
+	background-color: #ffffff;
+	font-weight: normal;
+	font-size: 8px;
+}
+
+#nav li:hover ul {
+	left: auto;
+}
+
+#nav li:hover ul, #nav li.sfhover ul {
+	left: auto;
+}

@@ -1,0 +1,150 @@
+.player-page-container {
+	margin:0px 0px 0px 0px;
+}
+
+.player-info-div {
+	#position: absolute;
+	width:700px;
+	border:1px solid #D7DEE8;
+	margin:0px 0px 15px 0px;
+	padding: 10px;
+	float: left;
+	background-color: #F2F4F7;
+}
+
+.player-image-div {
+	float: left;
+	padding:0px 0px 0px 0px;
+	#height:100px;
+	#border:1px solid black;
+	#width:100px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.player-info-short-name {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.player-info-right {
+	float: left;
+	padding:0px 0px 0px 25px;
+}
+
+.player-info-top {
+	padding:0px 0px 20px 0px;
+}
+
+.player-info-bottom-left {
+	float: left;
+	width: 275px;
+	padding:0px 0px 0px 0px;
+	font-size: 13px;
+}
+
+.player-info-bottom-right {
+	float: left;
+	width: 275px;
+	padding:0px 0px 0px 0px;
+	font-size: 13px;
+}
+
+.player-page-stats-container {
+	position: relative;
+	width:700px;
+	
+}
+
+.stats-block {
+	width: 700px;
+	margin: 0px 0px 25px 0px;
+	
+}
+
+.stats-block-title {
+	
+	font-weight:bold;
+	
+}
+
+.stats-block-header {
+	
+}
+
+.stats-batting-column-header {
+	float: left;
+	width: 30px;
+	margin: 0px 3px 0px 2px;
+}
+
+.stats-fielding-column-header {
+	float: left;
+	width: 30px;
+	margin: 0px 3px 0px 2px;
+}
+
+.stats-pitching-column-header {
+	float: left;
+	width: 30px;
+	margin: 0px 2px 0px 2px;
+}
+
+.stats-block-row {
+
+}
+
+.stats-block-row-alternate {
+	background-color: #dcdcdc;
+}
+
+.stats-batting-column {
+	float: left;
+	width: 30px;
+	margin: 0px 3px 0px 2px;
+
+}
+
+.stats-fielding-column {
+	float: left;
+	width: 30px;
+	margin: 0px 3px 0px 2px;
+
+}
+
+.stats-pitching-column {
+	float: left;
+	width: 30px;
+	margin: 0px 2px 0px 2px;
+
+}
+
+.transaction {
+}
+
+
+#Year {
+	width: 35px;
+	margin-left: 0px;
+}
+
+#Team {
+	width: 45px;
+}
+
+#AVG, #OBP, #SLG, #BFW, #INN, #LF_G, #CF_G, #RF_G, #ERA, #BFP, #K {
+	width: 35px;
+	margin: 0px 3px 0px 2px;
+}
+
+/*
+#SHO, #HBP, #GDP, #ROE {
+	width: 25px;
+	margin: 0px 3px 0px 2px;
+}
+*/
+#IP {
+	width: 40px;
+	margin: 0px 3px 0px 2px;
+}
+

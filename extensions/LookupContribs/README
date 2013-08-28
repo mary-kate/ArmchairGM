@@ -1,0 +1,10 @@
+# This extension allows to lookup contributions of a particular user on multiple wikia. It requires staff group rights.
+
+# Number of tables used: none
+
+#    1.  Copy folder /LookupContribs to /extensions.
+#    2. Edit LookupContribs.php and set LOOKUPCONTRIBS_PATH to its correct value (it should point to /extensions by default).
+#    3. Copy LookupContribs.php to /extensions. 
+#    (this extension does not require Memcached - there is an option to use it, by changing the default contant in the LookupContribs.php file, but it is not      recommended)
+
+#    That should do the trick. If people belonging to staff cannot access the extension, check if relogin helps. If not, please check if the staff permissions are not overwritten after the initialization of the extension. If that is the case, the permissions should be rather appended (the extension adds one new permission right). 

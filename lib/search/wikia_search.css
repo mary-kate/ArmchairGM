@@ -1,0 +1,120 @@
+/*
+ * Copyright 2006 Wikia, Inc.  All rights reserved.
+ * Use is subject to license terms.
+ */
+
+.shown {
+	display: inline;
+
+}
+
+.hidden {
+	display: none;
+}
+.searchfragment {
+	/*padding-left: 1em;*/
+	color: #636363;
+}
+
+.searchfooter {
+	color: #448844;
+}
+
+.searchtitle {
+	margin-top: 2em;
+}
+
+.searchextras, .searchextras a {
+	color: #666666;
+}
+
+#wikiasearchwrapper {
+	text-align: center;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+}
+
+#wikiasearchtoplinks {
+	text-align: right;
+}
+
+#wikiasearchinput {
+	width: 100%;
+}
+
+#wikiamorelocal {
+	padding-left: 2em;
+}
+
+div.wikiasearcherror {
+	padding-left: 1em;
+	color: red;
+}
+
+h2.wikiasearch {
+	text-decoration: none;
+	border-bottom: none;
+	font-size: 100%;
+	color: black;
+	background: #eeeeff;
+	border-top: solid 1px #000033;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 1em;
+}
+
+div.wikiasearchpager {
+	text-align: center;
+	font-size: larger;
+}
+
+dl.wikiasearchsettings dt {
+	margin-top: 0.3em;
+	font-weight: normal;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+dl.wikiasearchsettings dd {
+	padding-left: 2em;
+	margin-left: 5px;
+	color: #555555;
+	font-size: smaller;
+}
+
+dl.pretty dt {
+	margin-top: 0em;
+	font-weight: normal;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+dl.pretty dd {
+	padding-left: 2em;
+	margin-left: 5px;
+	color: #555555;
+	font-size: smaller;
+}
+
+fieldset {
+	padding: 0px 5px 0px 5px;
+	margin: 10px;
+}
+
+table.wikiasearchadvancedform th {
+	text-decoration: none;
+	font-weight: normal;
+	text-align: right;
+	vertical-align: top;
+}
+
+img.wikiasearchimageresult {
+	float: left;
+	margin-right: 10px;
+}
